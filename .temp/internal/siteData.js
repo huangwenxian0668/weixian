@@ -36,6 +36,754 @@ export const siteData = {
   ],
   "pages": [
     {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroImage": "/home.jpg",
+        "actionText": "每日一点 →",
+        "actionLink": "/zh/guide/",
+        "features": [
+          {
+            "title": "知识体系",
+            "details": "高效的整理前端知识体系，在大脑中架构出一个自己的图书馆"
+          }
+        ],
+        "footer": "伟尚工作室"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-1eda290c",
+      "path": "/"
+    },
+    {
+      "title": "ES61",
+      "frontmatter": {},
+      "regularPath": "/js/ES6/ES61.html",
+      "relativePath": "js/ES6/ES61.md",
+      "key": "v-c14772ae",
+      "path": "/js/ES6/ES61.html"
+    },
+    {
+      "title": "ES62",
+      "frontmatter": {},
+      "regularPath": "/js/ES6/ES62.html",
+      "relativePath": "js/ES6/ES62.md",
+      "key": "v-a4abd66e",
+      "path": "/js/ES6/ES62.html"
+    },
+    {
+      "title": "手写函数(简单)",
+      "frontmatter": {},
+      "regularPath": "/js/Function/text1.html",
+      "relativePath": "js/Function/text1.md",
+      "key": "v-623393e2",
+      "path": "/js/Function/text1.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1.倒计时",
+          "slug": "_1-倒计时"
+        },
+        {
+          "level": 3,
+          "title": "1-1. 当前时间距离当前周周末的倒计时",
+          "slug": "_1-1-当前时间距离当前周周末的倒计时"
+        },
+        {
+          "level": 3,
+          "title": "1-2. 当前时间距离当前月月末的倒计时",
+          "slug": "_1-2-当前时间距离当前月月末的倒计时"
+        }
+      ]
+    },
+    {
+      "title": "手写函数(复杂)",
+      "frontmatter": {},
+      "regularPath": "/js/Function/text2.html",
+      "relativePath": "js/Function/text2.md",
+      "key": "v-09ec1f6f",
+      "path": "/js/Function/text2.html"
+    },
+    {
+      "title": "1. 函数声明",
+      "frontmatter": {},
+      "regularPath": "/js/JS/1.html",
+      "relativePath": "js/JS/1.md",
+      "key": "v-73bdc8cf",
+      "path": "/js/JS/1.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1. 函数声明",
+          "slug": "_1-函数声明"
+        },
+        {
+          "level": 3,
+          "title": "1-1. 什么是函数声明",
+          "slug": "_1-1-什么是函数声明"
+        },
+        {
+          "level": 3,
+          "title": "1-2. 函数声明三种方式",
+          "slug": "_1-2-函数声明三种方式"
+        },
+        {
+          "level": 2,
+          "title": "2. 变量声明",
+          "slug": "_2-变量声明"
+        },
+        {
+          "level": 3,
+          "title": "2-1. 什么是变量声明",
+          "slug": "_2-1-什么是变量声明"
+        },
+        {
+          "level": 3,
+          "title": "2-2. 变量声明的方式和区别",
+          "slug": "_2-2-变量声明的方式和区别"
+        },
+        {
+          "level": 2,
+          "title": "3.  数据类型",
+          "slug": "_3-数据类型"
+        },
+        {
+          "level": 3,
+          "title": "3-1.数据类型的分类",
+          "slug": "_3-1-数据类型的分类"
+        }
+      ]
+    },
+    {
+      "title": "算法笔记",
+      "frontmatter": {},
+      "regularPath": "/js/JS/3.html",
+      "relativePath": "js/JS/3.md",
+      "key": "v-187b360f",
+      "path": "/js/JS/3.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "算法笔记",
+          "slug": "算法笔记"
+        },
+        {
+          "level": 2,
+          "title": "1.获取 url 中的参数",
+          "slug": "_1-获取-url-中的参数"
+        },
+        {
+          "level": 2,
+          "title": "2. dom 节点查找",
+          "slug": "_2-dom-节点查找"
+        }
+      ]
+    },
+    {
+      "title": "思维导图",
+      "frontmatter": {},
+      "regularPath": "/js/",
+      "relativePath": "js/README.md",
+      "key": "v-715a4f4f",
+      "path": "/js/"
+    },
+    {
+      "title": "1 声明",
+      "frontmatter": {},
+      "regularPath": "/js/JS/2.html",
+      "relativePath": "js/JS/2.md",
+      "key": "v-73c70122",
+      "path": "/js/JS/2.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1 声明",
+          "slug": "_1-声明"
+        },
+        {
+          "level": 3,
+          "title": "1-1 「js函数声明三种方式：」",
+          "slug": "_1-1-「js函数声明三种方式-」"
+        },
+        {
+          "level": 3,
+          "title": "1-2「js变量声明：」",
+          "slug": "_1-2「js变量声明-」"
+        },
+        {
+          "level": 2,
+          "title": "2 数据类型的分类：",
+          "slug": "_2-数据类型的分类"
+        },
+        {
+          "level": 3,
+          "title": "2-1 基本类型：",
+          "slug": "_2-1-基本类型"
+        },
+        {
+          "level": 3,
+          "title": "2-2 对象类型(引用类型)，有以下3种：",
+          "slug": "_2-2-对象类型-引用类型-有以下3种"
+        },
+        {
+          "level": 3,
+          "title": "2-3 数据类型的判断：",
+          "slug": "_2-3-数据类型的判断"
+        },
+        {
+          "level": 2,
+          "title": "3 js运算符：",
+          "slug": "_3-js运算符"
+        },
+        {
+          "level": 2,
+          "title": "4 内存",
+          "slug": "_4-内存"
+        },
+        {
+          "level": 3,
+          "title": "4-1 执行上下文",
+          "slug": "_4-1-执行上下文"
+        },
+        {
+          "level": 3,
+          "title": "4-2 堆栈",
+          "slug": "_4-2-堆栈"
+        },
+        {
+          "level": 2,
+          "title": "5 垃圾回收机制",
+          "slug": "_5-垃圾回收机制"
+        },
+        {
+          "level": 3,
+          "title": "5-1引用计数法",
+          "slug": "_5-1引用计数法"
+        },
+        {
+          "level": 3,
+          "title": "5-2 标记清除法",
+          "slug": "_5-2-标记清除法"
+        },
+        {
+          "level": 3,
+          "title": "5-3 复制算法",
+          "slug": "_5-3-复制算法"
+        },
+        {
+          "level": 2,
+          "title": "6 内存泄漏",
+          "slug": "_6-内存泄漏"
+        },
+        {
+          "level": 2,
+          "title": "7 作用域",
+          "slug": "_7-作用域"
+        },
+        {
+          "level": 3,
+          "title": "7-1 相关案例",
+          "slug": "_7-1-相关案例"
+        },
+        {
+          "level": 2,
+          "title": "8 闭包",
+          "slug": "_8-闭包"
+        },
+        {
+          "level": 2,
+          "title": "9 this",
+          "slug": "_9-this"
+        },
+        {
+          "level": 3,
+          "title": "9-1 this的指向:",
+          "slug": "_9-1-this的指向"
+        },
+        {
+          "level": 3,
+          "title": "9-2 怎么改变this的指向:",
+          "slug": "_9-2-怎么改变this的指向"
+        },
+        {
+          "level": 3,
+          "title": "9-3 箭头函数:",
+          "slug": "_9-3-箭头函数"
+        },
+        {
+          "level": 2,
+          "title": "10 原型和原型链",
+          "slug": "_10-原型和原型链"
+        },
+        {
+          "level": 3,
+          "title": "10-1 背景:",
+          "slug": "_10-1-背景"
+        },
+        {
+          "level": 3,
+          "title": "10-2基本概念",
+          "slug": "_10-2基本概念"
+        },
+        {
+          "level": 3,
+          "title": "10-3 什么是原型继承",
+          "slug": "_10-3-什么是原型继承"
+        },
+        {
+          "level": 2,
+          "title": "11 深浅拷贝",
+          "slug": "_11-深浅拷贝"
+        },
+        {
+          "level": 3,
+          "title": "11-1 浅克隆",
+          "slug": "_11-1-浅克隆"
+        },
+        {
+          "level": 3,
+          "title": "11-2 深克隆",
+          "slug": "_11-2-深克隆"
+        },
+        {
+          "level": 2,
+          "title": "12 数组",
+          "slug": "_12-数组"
+        },
+        {
+          "level": 3,
+          "title": "12-1数组去重",
+          "slug": "_12-1数组去重"
+        },
+        {
+          "level": 3,
+          "title": "12-2数组展开",
+          "slug": "_12-2数组展开"
+        },
+        {
+          "level": 3,
+          "title": "12-3数组合并",
+          "slug": "_12-3数组合并"
+        },
+        {
+          "level": 3,
+          "title": "12-4判断数组",
+          "slug": "_12-4判断数组"
+        },
+        {
+          "level": 2,
+          "title": "13 对象",
+          "slug": "_13-对象"
+        },
+        {
+          "level": 3,
+          "title": "13-1 如何判断一个对象是不是空对象",
+          "slug": "_13-1-如何判断一个对象是不是空对象"
+        },
+        {
+          "level": 2,
+          "title": "13 v8引擎",
+          "slug": "_13-v8引擎"
+        },
+        {
+          "level": 3,
+          "title": "13-1 v8垃圾回收",
+          "slug": "_13-1-v8垃圾回收"
+        },
+        {
+          "level": 2,
+          "title": "14 event loop",
+          "slug": "_14-event-loop"
+        },
+        {
+          "level": 3,
+          "title": "14-1 什么是事件循环",
+          "slug": "_14-1-什么是事件循环"
+        },
+        {
+          "level": 2,
+          "title": "15 严格模式的优缺点",
+          "slug": "_15-严格模式的优缺点"
+        },
+        {
+          "level": 3,
+          "title": "15-1 概念",
+          "slug": "_15-1-概念"
+        },
+        {
+          "level": 3,
+          "title": "15-2 优点",
+          "slug": "_15-2-优点"
+        },
+        {
+          "level": 3,
+          "title": "15-3 缺点",
+          "slug": "_15-3-缺点"
+        },
+        {
+          "level": 2,
+          "title": "16 ES6",
+          "slug": "_16-es6"
+        },
+        {
+          "level": 3,
+          "title": "16-1 背景",
+          "slug": "_16-1-背景"
+        },
+        {
+          "level": 3,
+          "title": "16-2 常用特性",
+          "slug": "_16-2-常用特性"
+        },
+        {
+          "level": 2,
+          "title": "17 事件流",
+          "slug": "_17-事件流"
+        },
+        {
+          "level": 2,
+          "title": "18 new",
+          "slug": "_18-new"
+        },
+        {
+          "level": 2,
+          "title": "19 手写promise",
+          "slug": "_19-手写promise"
+        },
+        {
+          "level": 2,
+          "title": "20 js脚本加载问题，async、defer",
+          "slug": "_20-js脚本加载问题-async、defer"
+        },
+        {
+          "level": 3,
+          "title": "20-1 正常模式",
+          "slug": "_20-1-正常模式"
+        },
+        {
+          "level": 3,
+          "title": "20-2 async(异步) 模式",
+          "slug": "_20-2-async-异步-模式"
+        },
+        {
+          "level": 3,
+          "title": "20-3 defer(延缓) 模式",
+          "slug": "_20-3-defer-延缓-模式"
+        },
+        {
+          "level": 2,
+          "title": "21 性能优化",
+          "slug": "_21-性能优化"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/js/arry.html",
+      "relativePath": "js/arry.md",
+      "key": "v-0e7ad108",
+      "path": "/js/arry.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1. 数组",
+          "slug": "_1-数组"
+        },
+        {
+          "level": 3,
+          "title": "1-1. concat()",
+          "slug": "_1-1-concat"
+        },
+        {
+          "level": 3,
+          "title": "1-2.  every()",
+          "slug": "_1-2-every"
+        },
+        {
+          "level": 3,
+          "title": "1-3.filter()",
+          "slug": "_1-3-filter"
+        },
+        {
+          "level": 3,
+          "title": "1-4. forEach()",
+          "slug": "_1-4-foreach"
+        },
+        {
+          "level": 3,
+          "title": "1-5. indexOf()",
+          "slug": "_1-5-indexof"
+        },
+        {
+          "level": 3,
+          "title": "1-6. join()",
+          "slug": "_1-6-join"
+        },
+        {
+          "level": 3,
+          "title": "1-7. lastIndexOf()",
+          "slug": "_1-7-lastindexof"
+        },
+        {
+          "level": 3,
+          "title": "1-8. push和pop",
+          "slug": "_1-8-push和pop"
+        },
+        {
+          "level": 3,
+          "title": "1-9. unshift 和 shift",
+          "slug": "_1-9-unshift-和-shift"
+        },
+        {
+          "level": 3,
+          "title": "1-10. sort",
+          "slug": "_1-10-sort"
+        },
+        {
+          "level": 3,
+          "title": "1-11.reverse()",
+          "slug": "_1-11-reverse"
+        },
+        {
+          "level": 3,
+          "title": "1-12. slice",
+          "slug": "_1-12-slice"
+        },
+        {
+          "level": 3,
+          "title": "1-13. splice",
+          "slug": "_1-13-splice"
+        },
+        {
+          "level": 3,
+          "title": "1-14. map",
+          "slug": "_1-14-map"
+        },
+        {
+          "level": 3,
+          "title": "1-15. some",
+          "slug": "_1-15-some"
+        },
+        {
+          "level": 3,
+          "title": "1-16. reduce和reduceRight",
+          "slug": "_1-16-reduce和reduceright"
+        },
+        {
+          "level": 2,
+          "title": "2. 对象",
+          "slug": "_2-对象"
+        },
+        {
+          "level": 3,
+          "title": "2-1. Object.assign()",
+          "slug": "_2-1-object-assign"
+        },
+        {
+          "level": 3,
+          "title": "2-2. Object.create()",
+          "slug": "_2-2-object-create"
+        },
+        {
+          "level": 3,
+          "title": "2-3. Object.defineProperties()",
+          "slug": "_2-3-object-defineproperties"
+        }
+      ]
+    },
+    {
+      "title": "手写函数(复杂)",
+      "frontmatter": {},
+      "regularPath": "/js/reg/text2.html",
+      "relativePath": "js/reg/text2.md",
+      "key": "v-6f630966",
+      "path": "/js/reg/text2.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/js/ast.html",
+      "relativePath": "js/ast.md",
+      "key": "v-6f495b30",
+      "path": "/js/ast.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1. 什么是AST",
+          "slug": "_1-什么是ast"
+        },
+        {
+          "level": 2,
+          "title": "2. 原理",
+          "slug": "_2-原理"
+        },
+        {
+          "level": 2,
+          "title": "3. AST的用途",
+          "slug": "_3-ast的用途"
+        },
+        {
+          "level": 2,
+          "title": "4. AST使用3个流程",
+          "slug": "_4-ast使用3个流程"
+        },
+        {
+          "level": 2,
+          "title": "5. AST的结构",
+          "slug": "_5-ast的结构"
+        },
+        {
+          "level": 2,
+          "title": "6. AST编译过程",
+          "slug": "_6-ast编译过程"
+        },
+        {
+          "level": 2,
+          "title": "7. babel原理浅析",
+          "slug": "_7-babel原理浅析"
+        },
+        {
+          "level": 2,
+          "title": "8. vue中AST抽象语法树的运用;",
+          "slug": "_8-vue中ast抽象语法树的运用"
+        }
+      ]
+    },
+    {
+      "title": "1. 什么是正则",
+      "frontmatter": {},
+      "regularPath": "/js/reg/text1.html",
+      "relativePath": "js/reg/text1.md",
+      "key": "v-4013e80f",
+      "path": "/js/reg/text1.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1. 什么是正则",
+          "slug": "_1-什么是正则"
+        },
+        {
+          "level": 3,
+          "title": "1-1. 正则对象RegExp",
+          "slug": "_1-1-正则对象regexp"
+        },
+        {
+          "level": 2,
+          "title": "2. 语法",
+          "slug": "_2-语法"
+        },
+        {
+          "level": 2,
+          "title": "3. 使用字符串方法",
+          "slug": "_3-使用字符串方法"
+        },
+        {
+          "level": 3,
+          "title": "3-1. search()",
+          "slug": "_3-1-search"
+        },
+        {
+          "level": 3,
+          "title": "3-2. replace()",
+          "slug": "_3-2-replace"
+        },
+        {
+          "level": 3,
+          "title": "3-3. match",
+          "slug": "_3-3-match"
+        },
+        {
+          "level": 2,
+          "title": "4. 正则表达式修饰符",
+          "slug": "_4-正则表达式修饰符"
+        },
+        {
+          "level": 2,
+          "title": "5. 正则表达式模式",
+          "slug": "_5-正则表达式模式"
+        },
+        {
+          "level": 2,
+          "title": "6. 元字符",
+          "slug": "_6-元字符"
+        },
+        {
+          "level": 2,
+          "title": "7. 量词",
+          "slug": "_7-量词"
+        },
+        {
+          "level": 2,
+          "title": "8. RegExp 对象方法",
+          "slug": "_8-regexp-对象方法"
+        },
+        {
+          "level": 2,
+          "title": "9. RegExp 对象属性",
+          "slug": "_9-regexp-对象属性"
+        }
+      ]
+    },
+    {
+      "title": "思维导图 业务",
+      "frontmatter": {},
+      "regularPath": "/tools/",
+      "relativePath": "tools/README.md",
+      "key": "v-47e17abe",
+      "path": "/tools/",
+      "headers": [
+        {
+          "level": 3,
+          "title": "4",
+          "slug": "_4-2"
+        }
+      ]
+    },
+    {
+      "title": "实现一个swagger搜索的插件",
+      "frontmatter": {},
+      "regularPath": "/tools/chajian/1.html",
+      "relativePath": "tools/chajian/1.md",
+      "key": "v-7ebc10b5",
+      "path": "/tools/chajian/1.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "背景",
+          "slug": "背景"
+        },
+        {
+          "level": 2,
+          "title": "项目源码",
+          "slug": "项目源码"
+        },
+        {
+          "level": 2,
+          "title": "实现",
+          "slug": "实现"
+        },
+        {
+          "level": 3,
+          "title": "目录结构",
+          "slug": "目录结构"
+        },
+        {
+          "level": 3,
+          "title": "manifest.json",
+          "slug": "manifest-json"
+        },
+        {
+          "level": 3,
+          "title": "index.js",
+          "slug": "index-js"
+        },
+        {
+          "level": 2,
+          "title": "发布",
+          "slug": "发布"
+        }
+      ]
+    },
+    {
       "title": "一. 更新",
       "frontmatter": {},
       "regularPath": "/tools/git/1.html",
@@ -86,41 +834,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "思维导图 业务",
-      "frontmatter": {},
-      "regularPath": "/tools/",
-      "relativePath": "tools/README.md",
-      "key": "v-47e17abe",
-      "path": "/tools/",
-      "headers": [
-        {
-          "level": 3,
-          "title": "4",
-          "slug": "_4-2"
-        }
-      ]
-    },
-    {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroImage": "/home.jpg",
-        "actionText": "每日一点 →",
-        "actionLink": "/zh/guide/",
-        "features": [
-          {
-            "title": "知识体系",
-            "details": "高效的整理前端知识体系，在大脑中架构出一个自己的图书馆"
-          }
-        ],
-        "footer": "伟尚工作室"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-1eda290c",
-      "path": "/"
-    },
-    {
       "frontmatter": {},
       "regularPath": "/tools/vscode/1.html",
       "relativePath": "tools/vscode/1.md",
@@ -141,51 +854,6 @@ export const siteData = {
           "level": 2,
           "title": "2.怎么查看每一行的代码提交记录",
           "slug": "_2-怎么查看每一行的代码提交记录"
-        }
-      ]
-    },
-    {
-      "title": "实现一个swagger搜索的插件",
-      "frontmatter": {},
-      "regularPath": "/tools/chajian/1.html",
-      "relativePath": "tools/chajian/1.md",
-      "key": "v-7ebc10b5",
-      "path": "/tools/chajian/1.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "背景",
-          "slug": "背景"
-        },
-        {
-          "level": 2,
-          "title": "项目源码",
-          "slug": "项目源码"
-        },
-        {
-          "level": 2,
-          "title": "实现",
-          "slug": "实现"
-        },
-        {
-          "level": 3,
-          "title": "目录结构",
-          "slug": "目录结构"
-        },
-        {
-          "level": 3,
-          "title": "manifest.json",
-          "slug": "manifest-json"
-        },
-        {
-          "level": 3,
-          "title": "index.js",
-          "slug": "index-js"
-        },
-        {
-          "level": 2,
-          "title": "发布",
-          "slug": "发布"
         }
       ]
     },
@@ -251,96 +919,10 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/tools/webpack/4.html",
-      "relativePath": "tools/webpack/4.md",
-      "key": "v-03676c96",
-      "path": "/tools/webpack/4.html"
-    },
-    {
-      "frontmatter": {},
       "regularPath": "/tools/webpack/5.html",
       "relativePath": "tools/webpack/5.md",
       "key": "v-f79d2156",
       "path": "/tools/webpack/5.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/tools/webpack/2.html",
-      "relativePath": "tools/webpack/2.md",
-      "key": "v-1afc0316",
-      "path": "/tools/webpack/2.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "1. 概念",
-          "slug": "_1-概念"
-        },
-        {
-          "level": 2,
-          "title": "2. 打包图片",
-          "slug": "_2-打包图片"
-        }
-      ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/tools/webpack/6.html",
-      "relativePath": "tools/webpack/6.md",
-      "key": "v-0a1694f5",
-      "path": "/tools/webpack/6.html"
-    },
-    {
-      "title": "1. 简单介绍",
-      "frontmatter": {},
-      "regularPath": "/tools/webpack/3.html",
-      "relativePath": "tools/webpack/3.md",
-      "key": "v-78672415",
-      "path": "/tools/webpack/3.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "1. 简单介绍",
-          "slug": "_1-简单介绍"
-        },
-        {
-          "level": 2,
-          "title": "2. 基本概念",
-          "slug": "_2-基本概念"
-        }
-      ]
-    },
-    {
-      "title": "侧边栏需要参考以下配置",
-      "frontmatter": {},
-      "regularPath": "/vuePress/pit.html",
-      "relativePath": "vuePress/pit.md",
-      "key": "v-f9291454",
-      "path": "/vuePress/pit.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "侧边栏需要参考以下配置",
-          "slug": "侧边栏需要参考以下配置"
-        },
-        {
-          "level": 2,
-          "title": "文章内容参考以下配置",
-          "slug": "文章内容参考以下配置"
-        },
-        {
-          "level": 2,
-          "title": "怎么放大图片",
-          "slug": "怎么放大图片"
-        }
-      ]
-    },
-    {
-      "title": "2",
-      "frontmatter": {},
-      "regularPath": "/vuePress/",
-      "relativePath": "vuePress/README.md",
-      "key": "v-ac1dd3e2",
-      "path": "/vuePress/"
     },
     {
       "frontmatter": {},
@@ -427,6 +1009,67 @@ export const siteData = {
       ]
     },
     {
+      "title": "1. 简单介绍",
+      "frontmatter": {},
+      "regularPath": "/tools/webpack/3.html",
+      "relativePath": "tools/webpack/3.md",
+      "key": "v-78672415",
+      "path": "/tools/webpack/3.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1. 简单介绍",
+          "slug": "_1-简单介绍"
+        },
+        {
+          "level": 2,
+          "title": "2. 基本概念",
+          "slug": "_2-基本概念"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/tools/webpack/2.html",
+      "relativePath": "tools/webpack/2.md",
+      "key": "v-1afc0316",
+      "path": "/tools/webpack/2.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1. 概念",
+          "slug": "_1-概念"
+        },
+        {
+          "level": 2,
+          "title": "2. 打包图片",
+          "slug": "_2-打包图片"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/tools/webpack/4.html",
+      "relativePath": "tools/webpack/4.md",
+      "key": "v-03676c96",
+      "path": "/tools/webpack/4.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/tools/webpack/6.html",
+      "relativePath": "tools/webpack/6.md",
+      "key": "v-0a1694f5",
+      "path": "/tools/webpack/6.html"
+    },
+    {
+      "title": "2",
+      "frontmatter": {},
+      "regularPath": "/vuePress/",
+      "relativePath": "vuePress/README.md",
+      "key": "v-ac1dd3e2",
+      "path": "/vuePress/"
+    },
+    {
       "title": "使用指南",
       "frontmatter": {},
       "regularPath": "/vuePress/guide.html",
@@ -453,6 +1096,31 @@ export const siteData = {
           "level": 2,
           "title": "3. 代码使得代码高亮",
           "slug": "_3-代码使得代码高亮"
+        }
+      ]
+    },
+    {
+      "title": "侧边栏需要参考以下配置",
+      "frontmatter": {},
+      "regularPath": "/vuePress/pit.html",
+      "relativePath": "vuePress/pit.md",
+      "key": "v-f9291454",
+      "path": "/vuePress/pit.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "侧边栏需要参考以下配置",
+          "slug": "侧边栏需要参考以下配置"
+        },
+        {
+          "level": 2,
+          "title": "文章内容参考以下配置",
+          "slug": "文章内容参考以下配置"
+        },
+        {
+          "level": 2,
+          "title": "怎么放大图片",
+          "slug": "怎么放大图片"
         }
       ]
     }
