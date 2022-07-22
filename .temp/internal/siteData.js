@@ -36,14 +36,6 @@ export const siteData = {
   ],
   "pages": [
     {
-      "title": "jsbase 1",
-      "frontmatter": {},
-      "regularPath": "/Photography/back/2.html",
-      "relativePath": "Photography/back/2.md",
-      "key": "v-9648a9ba",
-      "path": "/Photography/back/2.html"
-    },
-    {
       "title": "思维导图",
       "frontmatter": {},
       "regularPath": "/Photography/",
@@ -52,12 +44,12 @@ export const siteData = {
       "path": "/Photography/"
     },
     {
-      "title": "ES62",
+      "title": "jsbase 1",
       "frontmatter": {},
-      "regularPath": "/Photography/front/2.html",
-      "relativePath": "Photography/front/2.md",
-      "key": "v-3c81def5",
-      "path": "/Photography/front/2.html"
+      "regularPath": "/Photography/back/2.html",
+      "relativePath": "Photography/back/2.md",
+      "key": "v-9648a9ba",
+      "path": "/Photography/back/2.html"
     },
     {
       "title": "PS-高级暖色系列色彩详解",
@@ -215,11 +207,32 @@ export const siteData = {
       ]
     },
     {
+      "title": "ES62",
       "frontmatter": {},
-      "regularPath": "/Photography/front/1.html",
-      "relativePath": "Photography/front/1.md",
-      "key": "v-117d21d5",
-      "path": "/Photography/front/1.html"
+      "regularPath": "/Photography/front/2.html",
+      "relativePath": "Photography/front/2.md",
+      "key": "v-3c81def5",
+      "path": "/Photography/front/2.html"
+    },
+    {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroImage": "/home.jpg",
+        "actionText": "每日一点 →",
+        "actionLink": "/zh/guide/",
+        "features": [
+          {
+            "title": "知识体系",
+            "details": "高效的整理前端知识体系，在大脑中架构出一个自己的图书馆"
+          }
+        ],
+        "footer": "伟尚工作室"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-1eda290c",
+      "path": "/"
     },
     {
       "title": "ES61",
@@ -236,22 +249,6 @@ export const siteData = {
       "relativePath": "browser/Console/2.md",
       "key": "v-23fe3515",
       "path": "/browser/Console/2.html"
-    },
-    {
-      "title": "jsbase 1",
-      "frontmatter": {},
-      "regularPath": "/browser/Http/2.html",
-      "relativePath": "browser/Http/2.md",
-      "key": "v-1cada237",
-      "path": "/browser/Http/2.html"
-    },
-    {
-      "title": "text2.md",
-      "frontmatter": {},
-      "regularPath": "/browser/Interview/2.html",
-      "relativePath": "browser/Interview/2.md",
-      "key": "v-200c50d5",
-      "path": "/browser/Interview/2.html"
     },
     {
       "title": "1.从URL输入到页面展现发生了什么",
@@ -434,32 +431,19 @@ export const siteData = {
       ]
     },
     {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroImage": "/home.jpg",
-        "actionText": "每日一点 →",
-        "actionLink": "/zh/guide/",
-        "features": [
-          {
-            "title": "知识体系",
-            "details": "高效的整理前端知识体系，在大脑中架构出一个自己的图书馆"
-          }
-        ],
-        "footer": "伟尚工作室"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-1eda290c",
-      "path": "/"
+      "frontmatter": {},
+      "regularPath": "/Photography/front/1.html",
+      "relativePath": "Photography/front/1.md",
+      "key": "v-117d21d5",
+      "path": "/Photography/front/1.html"
     },
     {
-      "title": "手写函数(简单)",
+      "title": "jsbase 1",
       "frontmatter": {},
-      "regularPath": "/browser/SourceCode/1.html",
-      "relativePath": "browser/SourceCode/1.md",
-      "key": "v-7f442e0e",
-      "path": "/browser/SourceCode/1.html"
+      "regularPath": "/browser/Http/2.html",
+      "relativePath": "browser/Http/2.md",
+      "key": "v-1cada237",
+      "path": "/browser/Http/2.html"
     },
     {
       "title": "text1.md",
@@ -470,12 +454,258 @@ export const siteData = {
       "path": "/browser/Interview/1.html"
     },
     {
+      "title": "text2.md",
+      "frontmatter": {},
+      "regularPath": "/browser/Interview/2.html",
+      "relativePath": "browser/Interview/2.md",
+      "key": "v-200c50d5",
+      "path": "/browser/Interview/2.html"
+    },
+    {
       "title": "思维导图",
       "frontmatter": {},
       "regularPath": "/browser/",
       "relativePath": "browser/README.md",
       "key": "v-0f3dcf72",
       "path": "/browser/"
+    },
+    {
+      "title": "以下内容为css 基础篇（1）",
+      "frontmatter": {},
+      "regularPath": "/css/Css/1%20copy.html",
+      "relativePath": "css/Css/1 copy.md",
+      "key": "v-69ee46c6",
+      "path": "/css/Css/1%20copy.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1. 如何解决 a 标点击后 hover 事件失效的问题？",
+          "slug": "_1-如何解决-a-标点击后-hover-事件失效的问题"
+        },
+        {
+          "level": 2,
+          "title": "2. 响应式布局",
+          "slug": "_2-响应式布局"
+        },
+        {
+          "level": 2,
+          "title": "3. Flex布局",
+          "slug": "_3-flex布局"
+        },
+        {
+          "level": 3,
+          "title": "3-1 Flex中的四大概念",
+          "slug": "_3-1-flex中的四大概念"
+        },
+        {
+          "level": 3,
+          "title": "3-2 容器的属性",
+          "slug": "_3-2-容器的属性"
+        },
+        {
+          "level": 3,
+          "title": "3-3项目属性",
+          "slug": "_3-3项目属性"
+        },
+        {
+          "level": 2,
+          "title": "4.使元素消失的方法",
+          "slug": "_4-使元素消失的方法"
+        },
+        {
+          "level": 2,
+          "title": "5. css盒模型",
+          "slug": "_5-css盒模型"
+        },
+        {
+          "level": 2,
+          "title": "6. 选择器怎么解析的",
+          "slug": "_6-选择器怎么解析的"
+        },
+        {
+          "level": 2,
+          "title": "7. 选择器",
+          "slug": "_7-选择器"
+        },
+        {
+          "level": 3,
+          "title": "7-1 选择器分类",
+          "slug": "_7-1-选择器分类"
+        },
+        {
+          "level": 3,
+          "title": "7-2 选择器优先级",
+          "slug": "_7-2-选择器优先级"
+        },
+        {
+          "level": 3,
+          "title": "7-3 css3新增的伪类",
+          "slug": "_7-3-css3新增的伪类"
+        },
+        {
+          "level": 3,
+          "title": "7-4 选择器如何工作的",
+          "slug": "_7-4-选择器如何工作的"
+        },
+        {
+          "level": 2,
+          "title": "8. 伪类和伪元素的区别",
+          "slug": "_8-伪类和伪元素的区别"
+        },
+        {
+          "level": 2,
+          "title": "9. BFC",
+          "slug": "_9-bfc"
+        },
+        {
+          "level": 3,
+          "title": "9-1 当一个元素形成 BFC 后:",
+          "slug": "_9-1-当一个元素形成-bfc-后"
+        },
+        {
+          "level": 3,
+          "title": "9-2 如何形成BFC",
+          "slug": "_9-2-如何形成bfc"
+        },
+        {
+          "level": 3,
+          "title": "9-3 BFC的原理/BFC的布局规则",
+          "slug": "_9-3-bfc的原理-bfc的布局规则"
+        },
+        {
+          "level": 3,
+          "title": "9-4 BFC的应用",
+          "slug": "_9-4-bfc的应用"
+        },
+        {
+          "level": 2,
+          "title": "10. 定位",
+          "slug": "_10-定位"
+        },
+        {
+          "level": 3,
+          "title": "10-1 基本含义",
+          "slug": "_10-1-基本含义"
+        },
+        {
+          "level": 3,
+          "title": "10-2 水平居中",
+          "slug": "_10-2-水平居中"
+        },
+        {
+          "level": 3,
+          "title": "10-3 垂直居中",
+          "slug": "_10-3-垂直居中"
+        },
+        {
+          "level": 3,
+          "title": "10-4 水平垂直居中",
+          "slug": "_10-4-水平垂直居中"
+        },
+        {
+          "level": 3,
+          "title": "10-4 浮动",
+          "slug": "_10-4-浮动"
+        },
+        {
+          "level": 2,
+          "title": "11. 布局",
+          "slug": "_11-布局"
+        },
+        {
+          "level": 3,
+          "title": "11-1 两侧定宽，中间自适应",
+          "slug": "_11-1-两侧定宽-中间自适应"
+        },
+        {
+          "level": 2,
+          "title": "12. margin重叠",
+          "slug": "_12-margin重叠"
+        },
+        {
+          "level": 3,
+          "title": "margin重叠的规则",
+          "slug": "margin重叠的规则"
+        },
+        {
+          "level": 3,
+          "title": "margin重叠主要有四种情况的解决：",
+          "slug": "margin重叠主要有四种情况的解决"
+        },
+        {
+          "level": 2,
+          "title": "13. 用 css 画三角形",
+          "slug": "_13-用-css-画三角形"
+        },
+        {
+          "level": 2,
+          "title": "14. 实现单行和多行文本溢出添加省略号",
+          "slug": "_14-实现单行和多行文本溢出添加省略号"
+        },
+        {
+          "level": 2,
+          "title": "15. 常见单位",
+          "slug": "_15-常见单位"
+        },
+        {
+          "level": 2,
+          "title": "16. CSS有哪些属性可以继承？",
+          "slug": "_16-css有哪些属性可以继承"
+        },
+        {
+          "level": 2,
+          "title": "17. CSS3有哪些新特性？",
+          "slug": "_17-css3有哪些新特性"
+        },
+        {
+          "level": 2,
+          "title": "18. 为什么要初始化CSS样式？",
+          "slug": "_18-为什么要初始化css样式"
+        },
+        {
+          "level": 2,
+          "title": "19.CSS优化、提高性能的方法有哪些？",
+          "slug": "_19-css优化、提高性能的方法有哪些"
+        },
+        {
+          "level": 2,
+          "title": "20. 什么是回流（重排）和重绘以及其区别？",
+          "slug": "_20-什么是回流-重排-和重绘以及其区别"
+        },
+        {
+          "level": 2,
+          "title": "21.94. border:none;与border:0;有什么区别？",
+          "slug": "_21-94-border-none-与border-0-有什么区别"
+        },
+        {
+          "level": 2,
+          "title": "21. BFC、IFC、GFC、FFC是什么？",
+          "slug": "_21-bfc、ifc、gfc、ffc是什么"
+        },
+        {
+          "level": 2,
+          "title": "22. CSS属性overflow属性定义溢出元素内容区的内容会如何处理?",
+          "slug": "_22-css属性overflow属性定义溢出元素内容区的内容会如何处理"
+        },
+        {
+          "level": 2,
+          "title": "23. style标签写在body后与body前有什么区别？",
+          "slug": "_23-style标签写在body后与body前有什么区别"
+        },
+        {
+          "level": 2,
+          "title": "24. 元素竖向的百分比设定是相对于容器的高度吗？",
+          "slug": "_24-元素竖向的百分比设定是相对于容器的高度吗"
+        }
+      ]
+    },
+    {
+      "title": "手写函数(简单)",
+      "frontmatter": {},
+      "regularPath": "/browser/SourceCode/1.html",
+      "relativePath": "browser/SourceCode/1.md",
+      "key": "v-7f442e0e",
+      "path": "/browser/SourceCode/1.html"
     },
     {
       "title": "text1.md",
@@ -731,242 +961,27 @@ export const siteData = {
       ]
     },
     {
-      "title": "以下内容为css 基础篇（1）",
-      "frontmatter": {},
-      "regularPath": "/css/Css/1%20copy.html",
-      "relativePath": "css/Css/1 copy.md",
-      "key": "v-69ee46c6",
-      "path": "/css/Css/1%20copy.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "1. 如何解决 a 标点击后 hover 事件失效的问题？",
-          "slug": "_1-如何解决-a-标点击后-hover-事件失效的问题"
-        },
-        {
-          "level": 2,
-          "title": "2. 响应式布局",
-          "slug": "_2-响应式布局"
-        },
-        {
-          "level": 2,
-          "title": "3. Flex布局",
-          "slug": "_3-flex布局"
-        },
-        {
-          "level": 3,
-          "title": "3-1 Flex中的四大概念",
-          "slug": "_3-1-flex中的四大概念"
-        },
-        {
-          "level": 3,
-          "title": "3-2 容器的属性",
-          "slug": "_3-2-容器的属性"
-        },
-        {
-          "level": 3,
-          "title": "3-3项目属性",
-          "slug": "_3-3项目属性"
-        },
-        {
-          "level": 2,
-          "title": "4.使元素消失的方法",
-          "slug": "_4-使元素消失的方法"
-        },
-        {
-          "level": 2,
-          "title": "5. css盒模型",
-          "slug": "_5-css盒模型"
-        },
-        {
-          "level": 2,
-          "title": "6. 选择器怎么解析的",
-          "slug": "_6-选择器怎么解析的"
-        },
-        {
-          "level": 2,
-          "title": "7. 选择器",
-          "slug": "_7-选择器"
-        },
-        {
-          "level": 3,
-          "title": "7-1 选择器分类",
-          "slug": "_7-1-选择器分类"
-        },
-        {
-          "level": 3,
-          "title": "7-2 选择器优先级",
-          "slug": "_7-2-选择器优先级"
-        },
-        {
-          "level": 3,
-          "title": "7-3 css3新增的伪类",
-          "slug": "_7-3-css3新增的伪类"
-        },
-        {
-          "level": 3,
-          "title": "7-4 选择器如何工作的",
-          "slug": "_7-4-选择器如何工作的"
-        },
-        {
-          "level": 2,
-          "title": "8. 伪类和伪元素的区别",
-          "slug": "_8-伪类和伪元素的区别"
-        },
-        {
-          "level": 2,
-          "title": "9. BFC",
-          "slug": "_9-bfc"
-        },
-        {
-          "level": 3,
-          "title": "9-1 当一个元素形成 BFC 后:",
-          "slug": "_9-1-当一个元素形成-bfc-后"
-        },
-        {
-          "level": 3,
-          "title": "9-2 如何形成BFC",
-          "slug": "_9-2-如何形成bfc"
-        },
-        {
-          "level": 3,
-          "title": "9-3 BFC的原理/BFC的布局规则",
-          "slug": "_9-3-bfc的原理-bfc的布局规则"
-        },
-        {
-          "level": 3,
-          "title": "9-4 BFC的应用",
-          "slug": "_9-4-bfc的应用"
-        },
-        {
-          "level": 2,
-          "title": "10. 定位",
-          "slug": "_10-定位"
-        },
-        {
-          "level": 3,
-          "title": "10-1 基本含义",
-          "slug": "_10-1-基本含义"
-        },
-        {
-          "level": 3,
-          "title": "10-2 水平居中",
-          "slug": "_10-2-水平居中"
-        },
-        {
-          "level": 3,
-          "title": "10-3 垂直居中",
-          "slug": "_10-3-垂直居中"
-        },
-        {
-          "level": 3,
-          "title": "10-4 水平垂直居中",
-          "slug": "_10-4-水平垂直居中"
-        },
-        {
-          "level": 3,
-          "title": "10-4 浮动",
-          "slug": "_10-4-浮动"
-        },
-        {
-          "level": 2,
-          "title": "11. 布局",
-          "slug": "_11-布局"
-        },
-        {
-          "level": 3,
-          "title": "11-1 两侧定宽，中间自适应",
-          "slug": "_11-1-两侧定宽-中间自适应"
-        },
-        {
-          "level": 2,
-          "title": "12. margin重叠",
-          "slug": "_12-margin重叠"
-        },
-        {
-          "level": 3,
-          "title": "margin重叠的规则",
-          "slug": "margin重叠的规则"
-        },
-        {
-          "level": 3,
-          "title": "margin重叠主要有四种情况的解决：",
-          "slug": "margin重叠主要有四种情况的解决"
-        },
-        {
-          "level": 2,
-          "title": "13. 用 css 画三角形",
-          "slug": "_13-用-css-画三角形"
-        },
-        {
-          "level": 2,
-          "title": "14. 实现单行和多行文本溢出添加省略号",
-          "slug": "_14-实现单行和多行文本溢出添加省略号"
-        },
-        {
-          "level": 2,
-          "title": "15. 常见单位",
-          "slug": "_15-常见单位"
-        },
-        {
-          "level": 2,
-          "title": "16. CSS有哪些属性可以继承？",
-          "slug": "_16-css有哪些属性可以继承"
-        },
-        {
-          "level": 2,
-          "title": "17. CSS3有哪些新特性？",
-          "slug": "_17-css3有哪些新特性"
-        },
-        {
-          "level": 2,
-          "title": "18. 为什么要初始化CSS样式？",
-          "slug": "_18-为什么要初始化css样式"
-        },
-        {
-          "level": 2,
-          "title": "19.CSS优化、提高性能的方法有哪些？",
-          "slug": "_19-css优化、提高性能的方法有哪些"
-        },
-        {
-          "level": 2,
-          "title": "20. 什么是回流（重排）和重绘以及其区别？",
-          "slug": "_20-什么是回流-重排-和重绘以及其区别"
-        },
-        {
-          "level": 2,
-          "title": "21.94. border:none;与border:0;有什么区别？",
-          "slug": "_21-94-border-none-与border-0-有什么区别"
-        },
-        {
-          "level": 2,
-          "title": "21. BFC、IFC、GFC、FFC是什么？",
-          "slug": "_21-bfc、ifc、gfc、ffc是什么"
-        },
-        {
-          "level": 2,
-          "title": "22. CSS属性overflow属性定义溢出元素内容区的内容会如何处理?",
-          "slug": "_22-css属性overflow属性定义溢出元素内容区的内容会如何处理"
-        },
-        {
-          "level": 2,
-          "title": "23. style标签写在body后与body前有什么区别？",
-          "slug": "_23-style标签写在body后与body前有什么区别"
-        },
-        {
-          "level": 2,
-          "title": "24. 元素竖向的百分比设定是相对于容器的高度吗？",
-          "slug": "_24-元素竖向的百分比设定是相对于容器的高度吗"
-        }
-      ]
-    },
-    {
       "title": "text2.md",
       "frontmatter": {},
       "regularPath": "/css/Interview/2.html",
       "relativePath": "css/Interview/2.md",
       "key": "v-111bcb35",
       "path": "/css/Interview/2.html"
+    },
+    {
+      "title": "c ss",
+      "frontmatter": {},
+      "regularPath": "/css/",
+      "relativePath": "css/README.md",
+      "key": "v-612e7e91",
+      "path": "/css/",
+      "headers": [
+        {
+          "level": 3,
+          "title": "c ss",
+          "slug": "c-ss"
+        }
+      ]
     },
     {
       "title": "1. html5新增特性？",
@@ -1039,42 +1054,11 @@ export const siteData = {
       ]
     },
     {
-      "title": "c ss",
-      "frontmatter": {},
-      "regularPath": "/css/",
-      "relativePath": "css/README.md",
-      "key": "v-612e7e91",
-      "path": "/css/",
-      "headers": [
-        {
-          "level": 3,
-          "title": "c ss",
-          "slug": "c-ss"
-        }
-      ]
-    },
-    {
       "frontmatter": {},
       "regularPath": "/html/Html/1.html",
       "relativePath": "html/Html/1.md",
       "key": "v-84ba87e2",
       "path": "/html/Html/1.html"
-    },
-    {
-      "title": "text2.md",
-      "frontmatter": {},
-      "regularPath": "/html/Interview/text2.html",
-      "relativePath": "html/Interview/text2.md",
-      "key": "v-384c8d6f",
-      "path": "/html/Interview/text2.html"
-    },
-    {
-      "title": "ES61",
-      "frontmatter": {},
-      "regularPath": "/js/ES6/ES61.html",
-      "relativePath": "js/ES6/ES61.md",
-      "key": "v-c14772ae",
-      "path": "/js/ES6/ES61.html"
     },
     {
       "title": "text1.md",
@@ -1085,34 +1069,28 @@ export const siteData = {
       "path": "/html/Interview/text1.html"
     },
     {
-      "frontmatter": {},
-      "regularPath": "/css/Css/1.html",
-      "relativePath": "css/Css/1.md",
-      "key": "v-634117d5",
-      "path": "/css/Css/1.html"
-    },
-    {
-      "title": "思维导图",
-      "frontmatter": {},
-      "regularPath": "/html/",
-      "relativePath": "html/README.md",
-      "key": "v-71877762",
-      "path": "/html/",
-      "headers": [
-        {
-          "level": 3,
-          "title": "4",
-          "slug": "_4-2"
-        }
-      ]
-    },
-    {
       "title": "ES62",
       "frontmatter": {},
       "regularPath": "/js/ES6/ES62.html",
       "relativePath": "js/ES6/ES62.md",
       "key": "v-a4abd66e",
       "path": "/js/ES6/ES62.html"
+    },
+    {
+      "title": "ES61",
+      "frontmatter": {},
+      "regularPath": "/js/ES6/ES61.html",
+      "relativePath": "js/ES6/ES61.md",
+      "key": "v-c14772ae",
+      "path": "/js/ES6/ES61.html"
+    },
+    {
+      "title": "text2.md",
+      "frontmatter": {},
+      "regularPath": "/html/Interview/text2.html",
+      "relativePath": "html/Interview/text2.md",
+      "key": "v-384c8d6f",
+      "path": "/html/Interview/text2.html"
     },
     {
       "title": "手写函数(简单)",
@@ -1140,177 +1118,12 @@ export const siteData = {
       ]
     },
     {
-      "title": "算法笔记",
-      "frontmatter": {},
-      "regularPath": "/js/JS/3.html",
-      "relativePath": "js/JS/3.md",
-      "key": "v-187b360f",
-      "path": "/js/JS/3.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "算法笔记",
-          "slug": "算法笔记"
-        },
-        {
-          "level": 2,
-          "title": "1.获取 url 中的参数",
-          "slug": "_1-获取-url-中的参数"
-        },
-        {
-          "level": 2,
-          "title": "2. dom 节点查找",
-          "slug": "_2-dom-节点查找"
-        }
-      ]
-    },
-    {
       "title": "手写函数(复杂)",
       "frontmatter": {},
       "regularPath": "/js/Function/text2.html",
       "relativePath": "js/Function/text2.md",
       "key": "v-09ec1f6f",
       "path": "/js/Function/text2.html"
-    },
-    {
-      "title": "思维导图",
-      "frontmatter": {},
-      "regularPath": "/js/",
-      "relativePath": "js/README.md",
-      "key": "v-715a4f4f",
-      "path": "/js/"
-    },
-    {
-      "title": "1. 什么是正则",
-      "frontmatter": {},
-      "regularPath": "/js/reg/text1.html",
-      "relativePath": "js/reg/text1.md",
-      "key": "v-4013e80f",
-      "path": "/js/reg/text1.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "1. 什么是正则",
-          "slug": "_1-什么是正则"
-        },
-        {
-          "level": 3,
-          "title": "1-1. 正则对象RegExp",
-          "slug": "_1-1-正则对象regexp"
-        },
-        {
-          "level": 2,
-          "title": "2. 语法",
-          "slug": "_2-语法"
-        },
-        {
-          "level": 2,
-          "title": "3. 使用字符串方法",
-          "slug": "_3-使用字符串方法"
-        },
-        {
-          "level": 3,
-          "title": "3-1. search()",
-          "slug": "_3-1-search"
-        },
-        {
-          "level": 3,
-          "title": "3-2. replace()",
-          "slug": "_3-2-replace"
-        },
-        {
-          "level": 3,
-          "title": "3-3. match",
-          "slug": "_3-3-match"
-        },
-        {
-          "level": 2,
-          "title": "4. 正则表达式修饰符",
-          "slug": "_4-正则表达式修饰符"
-        },
-        {
-          "level": 2,
-          "title": "5. 正则表达式模式",
-          "slug": "_5-正则表达式模式"
-        },
-        {
-          "level": 2,
-          "title": "6. 元字符",
-          "slug": "_6-元字符"
-        },
-        {
-          "level": 2,
-          "title": "7. 量词",
-          "slug": "_7-量词"
-        },
-        {
-          "level": 2,
-          "title": "8. RegExp 对象方法",
-          "slug": "_8-regexp-对象方法"
-        },
-        {
-          "level": 2,
-          "title": "9. RegExp 对象属性",
-          "slug": "_9-regexp-对象属性"
-        }
-      ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/js/ast.html",
-      "relativePath": "js/ast.md",
-      "key": "v-6f495b30",
-      "path": "/js/ast.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "1. 什么是AST",
-          "slug": "_1-什么是ast"
-        },
-        {
-          "level": 2,
-          "title": "2. 原理",
-          "slug": "_2-原理"
-        },
-        {
-          "level": 2,
-          "title": "3. AST的用途",
-          "slug": "_3-ast的用途"
-        },
-        {
-          "level": 2,
-          "title": "4. AST使用3个流程",
-          "slug": "_4-ast使用3个流程"
-        },
-        {
-          "level": 2,
-          "title": "5. AST的结构",
-          "slug": "_5-ast的结构"
-        },
-        {
-          "level": 2,
-          "title": "6. AST编译过程",
-          "slug": "_6-ast编译过程"
-        },
-        {
-          "level": 2,
-          "title": "7. babel原理浅析",
-          "slug": "_7-babel原理浅析"
-        },
-        {
-          "level": 2,
-          "title": "8. vue中AST抽象语法树的运用;",
-          "slug": "_8-vue中ast抽象语法树的运用"
-        }
-      ]
-    },
-    {
-      "title": "手写函数(复杂)",
-      "frontmatter": {},
-      "regularPath": "/js/reg/text2.html",
-      "relativePath": "js/reg/text2.md",
-      "key": "v-6f630966",
-      "path": "/js/reg/text2.html"
     },
     {
       "title": "1. 函数声明",
@@ -1363,263 +1176,52 @@ export const siteData = {
       ]
     },
     {
+      "title": "思维导图",
       "frontmatter": {},
-      "regularPath": "/js/arry.html",
-      "relativePath": "js/arry.md",
-      "key": "v-0e7ad108",
-      "path": "/js/arry.html",
+      "regularPath": "/html/",
+      "relativePath": "html/README.md",
+      "key": "v-71877762",
+      "path": "/html/",
+      "headers": [
+        {
+          "level": 3,
+          "title": "4",
+          "slug": "_4-2"
+        }
+      ]
+    },
+    {
+      "title": "算法笔记",
+      "frontmatter": {},
+      "regularPath": "/js/JS/3.html",
+      "relativePath": "js/JS/3.md",
+      "key": "v-187b360f",
+      "path": "/js/JS/3.html",
       "headers": [
         {
           "level": 2,
-          "title": "1. 数组",
-          "slug": "_1-数组"
-        },
-        {
-          "level": 3,
-          "title": "1-1. concat()",
-          "slug": "_1-1-concat"
-        },
-        {
-          "level": 3,
-          "title": "1-2.  every()",
-          "slug": "_1-2-every"
-        },
-        {
-          "level": 3,
-          "title": "1-3.filter()",
-          "slug": "_1-3-filter"
-        },
-        {
-          "level": 3,
-          "title": "1-4. forEach()",
-          "slug": "_1-4-foreach"
-        },
-        {
-          "level": 3,
-          "title": "1-5. indexOf()",
-          "slug": "_1-5-indexof"
-        },
-        {
-          "level": 3,
-          "title": "1-6. join()",
-          "slug": "_1-6-join"
-        },
-        {
-          "level": 3,
-          "title": "1-7. lastIndexOf()",
-          "slug": "_1-7-lastindexof"
-        },
-        {
-          "level": 3,
-          "title": "1-8. push和pop",
-          "slug": "_1-8-push和pop"
-        },
-        {
-          "level": 3,
-          "title": "1-9. unshift 和 shift",
-          "slug": "_1-9-unshift-和-shift"
-        },
-        {
-          "level": 3,
-          "title": "1-10. sort",
-          "slug": "_1-10-sort"
-        },
-        {
-          "level": 3,
-          "title": "1-11.reverse()",
-          "slug": "_1-11-reverse"
-        },
-        {
-          "level": 3,
-          "title": "1-12. slice",
-          "slug": "_1-12-slice"
-        },
-        {
-          "level": 3,
-          "title": "1-13. splice",
-          "slug": "_1-13-splice"
-        },
-        {
-          "level": 3,
-          "title": "1-14. map",
-          "slug": "_1-14-map"
-        },
-        {
-          "level": 3,
-          "title": "1-15. some",
-          "slug": "_1-15-some"
-        },
-        {
-          "level": 3,
-          "title": "1-16. reduce和reduceRight",
-          "slug": "_1-16-reduce和reduceright"
+          "title": "算法笔记",
+          "slug": "算法笔记"
         },
         {
           "level": 2,
-          "title": "2. 对象",
-          "slug": "_2-对象"
+          "title": "1.获取 url 中的参数",
+          "slug": "_1-获取-url-中的参数"
         },
         {
-          "level": 3,
-          "title": "2-1. Object.assign()",
-          "slug": "_2-1-object-assign"
-        },
-        {
-          "level": 3,
-          "title": "2-2. Object.create()",
-          "slug": "_2-2-object-create"
-        },
-        {
-          "level": 3,
-          "title": "2-3. Object.defineProperties()",
-          "slug": "_2-3-object-defineproperties"
+          "level": 2,
+          "title": "2. dom 节点查找",
+          "slug": "_2-dom-节点查找"
         }
       ]
     },
     {
       "title": "思维导图",
       "frontmatter": {},
-      "regularPath": "/node/",
-      "relativePath": "node/README.md",
-      "key": "v-133f812f",
-      "path": "/node/"
-    },
-    {
-      "title": "text1.md",
-      "frontmatter": {},
-      "regularPath": "/node/Interview/1.html",
-      "relativePath": "node/Interview/1.md",
-      "key": "v-a81fd92e",
-      "path": "/node/Interview/1.html"
-    },
-    {
-      "title": "text2.md",
-      "frontmatter": {},
-      "regularPath": "/node/Interview/2.html",
-      "relativePath": "node/Interview/2.md",
-      "key": "v-a10381b2",
-      "path": "/node/Interview/2.html"
-    },
-    {
-      "title": "jsbase 2",
-      "frontmatter": {},
-      "regularPath": "/node/base/1.html",
-      "relativePath": "node/base/1.md",
-      "key": "v-2156b7ef",
-      "path": "/node/base/1.html"
-    },
-    {
-      "title": "jsbase 1",
-      "frontmatter": {},
-      "regularPath": "/node/base/2.html",
-      "relativePath": "node/base/2.md",
-      "key": "v-2fa4860f",
-      "path": "/node/base/2.html"
-    },
-    {
-      "title": "使用指南",
-      "frontmatter": {},
-      "regularPath": "/note/guide.html",
-      "relativePath": "note/guide.md",
-      "key": "v-43ccb5aa",
-      "path": "/note/guide.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "1. 点击展开或缩起的内容",
-          "slug": "_1-点击展开或缩起的内容"
-        },
-        {
-          "level": 2,
-          "title": "2. 怎么展示本地图片",
-          "slug": "_2-怎么展示本地图片"
-        },
-        {
-          "level": 2,
-          "title": "3. 怎么实现点击放大本地图片",
-          "slug": "_3-怎么实现点击放大本地图片"
-        }
-      ]
-    },
-    {
-      "title": "1. vue",
-      "frontmatter": {},
-      "regularPath": "/plan/",
-      "relativePath": "plan/README.md",
-      "key": "v-01e1f80f",
-      "path": "/plan/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "1. vue",
-          "slug": "_1-vue"
-        },
-        {
-          "level": 3,
-          "title": "1-1 vue源码",
-          "slug": "_1-1-vue源码"
-        },
-        {
-          "level": 3,
-          "title": "1-2 vue各个使用小技能",
-          "slug": "_1-2-vue各个使用小技能"
-        },
-        {
-          "level": 3,
-          "title": "1-3 vue坑",
-          "slug": "_1-3-vue坑"
-        },
-        {
-          "level": 3,
-          "title": "1-4 vue重要原理",
-          "slug": "_1-4-vue重要原理"
-        },
-        {
-          "level": 3,
-          "title": "1-5 vue生态 ，vuex vue-router vue-cli",
-          "slug": "_1-5-vue生态-vuex-vue-router-vue-cli"
-        },
-        {
-          "level": 2,
-          "title": "2. js",
-          "slug": "_2-js"
-        },
-        {
-          "level": 3,
-          "title": "2-1 js原理",
-          "slug": "_2-1-js原理"
-        },
-        {
-          "level": 3,
-          "title": "2-2 js算法",
-          "slug": "_2-2-js算法"
-        },
-        {
-          "level": 2,
-          "title": "3. 浏览器",
-          "slug": "_3-浏览器"
-        },
-        {
-          "level": 2,
-          "title": "4. 已做项目总结",
-          "slug": "_4-已做项目总结"
-        }
-      ]
-    },
-    {
-      "title": "2",
-      "frontmatter": {},
-      "regularPath": "/note/",
-      "relativePath": "note/README.md",
-      "key": "v-5c5ddf2f",
-      "path": "/note/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/note/react.html",
-      "relativePath": "note/react.md",
-      "key": "v-b1f9f4b8",
-      "path": "/note/react.html"
+      "regularPath": "/js/",
+      "relativePath": "js/README.md",
+      "key": "v-715a4f4f",
+      "path": "/js/"
     },
     {
       "title": "1 声明",
@@ -1912,6 +1514,332 @@ export const siteData = {
       ]
     },
     {
+      "frontmatter": {},
+      "regularPath": "/js/arry.html",
+      "relativePath": "js/arry.md",
+      "key": "v-0e7ad108",
+      "path": "/js/arry.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1. 数组",
+          "slug": "_1-数组"
+        },
+        {
+          "level": 3,
+          "title": "1-1. concat()",
+          "slug": "_1-1-concat"
+        },
+        {
+          "level": 3,
+          "title": "1-2.  every()",
+          "slug": "_1-2-every"
+        },
+        {
+          "level": 3,
+          "title": "1-3.filter()",
+          "slug": "_1-3-filter"
+        },
+        {
+          "level": 3,
+          "title": "1-4. forEach()",
+          "slug": "_1-4-foreach"
+        },
+        {
+          "level": 3,
+          "title": "1-5. indexOf()",
+          "slug": "_1-5-indexof"
+        },
+        {
+          "level": 3,
+          "title": "1-6. join()",
+          "slug": "_1-6-join"
+        },
+        {
+          "level": 3,
+          "title": "1-7. lastIndexOf()",
+          "slug": "_1-7-lastindexof"
+        },
+        {
+          "level": 3,
+          "title": "1-8. push和pop",
+          "slug": "_1-8-push和pop"
+        },
+        {
+          "level": 3,
+          "title": "1-9. unshift 和 shift",
+          "slug": "_1-9-unshift-和-shift"
+        },
+        {
+          "level": 3,
+          "title": "1-10. sort",
+          "slug": "_1-10-sort"
+        },
+        {
+          "level": 3,
+          "title": "1-11.reverse()",
+          "slug": "_1-11-reverse"
+        },
+        {
+          "level": 3,
+          "title": "1-12. slice",
+          "slug": "_1-12-slice"
+        },
+        {
+          "level": 3,
+          "title": "1-13. splice",
+          "slug": "_1-13-splice"
+        },
+        {
+          "level": 3,
+          "title": "1-14. map",
+          "slug": "_1-14-map"
+        },
+        {
+          "level": 3,
+          "title": "1-15. some",
+          "slug": "_1-15-some"
+        },
+        {
+          "level": 3,
+          "title": "1-16. reduce和reduceRight",
+          "slug": "_1-16-reduce和reduceright"
+        },
+        {
+          "level": 2,
+          "title": "2. 对象",
+          "slug": "_2-对象"
+        },
+        {
+          "level": 3,
+          "title": "2-1. Object.assign()",
+          "slug": "_2-1-object-assign"
+        },
+        {
+          "level": 3,
+          "title": "2-2. Object.create()",
+          "slug": "_2-2-object-create"
+        },
+        {
+          "level": 3,
+          "title": "2-3. Object.defineProperties()",
+          "slug": "_2-3-object-defineproperties"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/js/ast.html",
+      "relativePath": "js/ast.md",
+      "key": "v-6f495b30",
+      "path": "/js/ast.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1. 什么是AST",
+          "slug": "_1-什么是ast"
+        },
+        {
+          "level": 2,
+          "title": "2. 原理",
+          "slug": "_2-原理"
+        },
+        {
+          "level": 2,
+          "title": "3. AST的用途",
+          "slug": "_3-ast的用途"
+        },
+        {
+          "level": 2,
+          "title": "4. AST使用3个流程",
+          "slug": "_4-ast使用3个流程"
+        },
+        {
+          "level": 2,
+          "title": "5. AST的结构",
+          "slug": "_5-ast的结构"
+        },
+        {
+          "level": 2,
+          "title": "6. AST编译过程",
+          "slug": "_6-ast编译过程"
+        },
+        {
+          "level": 2,
+          "title": "7. babel原理浅析",
+          "slug": "_7-babel原理浅析"
+        },
+        {
+          "level": 2,
+          "title": "8. vue中AST抽象语法树的运用;",
+          "slug": "_8-vue中ast抽象语法树的运用"
+        }
+      ]
+    },
+    {
+      "title": "1. 什么是正则",
+      "frontmatter": {},
+      "regularPath": "/js/reg/text1.html",
+      "relativePath": "js/reg/text1.md",
+      "key": "v-4013e80f",
+      "path": "/js/reg/text1.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1. 什么是正则",
+          "slug": "_1-什么是正则"
+        },
+        {
+          "level": 3,
+          "title": "1-1. 正则对象RegExp",
+          "slug": "_1-1-正则对象regexp"
+        },
+        {
+          "level": 2,
+          "title": "2. 语法",
+          "slug": "_2-语法"
+        },
+        {
+          "level": 2,
+          "title": "3. 使用字符串方法",
+          "slug": "_3-使用字符串方法"
+        },
+        {
+          "level": 3,
+          "title": "3-1. search()",
+          "slug": "_3-1-search"
+        },
+        {
+          "level": 3,
+          "title": "3-2. replace()",
+          "slug": "_3-2-replace"
+        },
+        {
+          "level": 3,
+          "title": "3-3. match",
+          "slug": "_3-3-match"
+        },
+        {
+          "level": 2,
+          "title": "4. 正则表达式修饰符",
+          "slug": "_4-正则表达式修饰符"
+        },
+        {
+          "level": 2,
+          "title": "5. 正则表达式模式",
+          "slug": "_5-正则表达式模式"
+        },
+        {
+          "level": 2,
+          "title": "6. 元字符",
+          "slug": "_6-元字符"
+        },
+        {
+          "level": 2,
+          "title": "7. 量词",
+          "slug": "_7-量词"
+        },
+        {
+          "level": 2,
+          "title": "8. RegExp 对象方法",
+          "slug": "_8-regexp-对象方法"
+        },
+        {
+          "level": 2,
+          "title": "9. RegExp 对象属性",
+          "slug": "_9-regexp-对象属性"
+        }
+      ]
+    },
+    {
+      "title": "手写函数(复杂)",
+      "frontmatter": {},
+      "regularPath": "/js/reg/text2.html",
+      "relativePath": "js/reg/text2.md",
+      "key": "v-6f630966",
+      "path": "/js/reg/text2.html"
+    },
+    {
+      "title": "text1.md",
+      "frontmatter": {},
+      "regularPath": "/node/Interview/1.html",
+      "relativePath": "node/Interview/1.md",
+      "key": "v-a81fd92e",
+      "path": "/node/Interview/1.html"
+    },
+    {
+      "title": "text2.md",
+      "frontmatter": {},
+      "regularPath": "/node/Interview/2.html",
+      "relativePath": "node/Interview/2.md",
+      "key": "v-a10381b2",
+      "path": "/node/Interview/2.html"
+    },
+    {
+      "title": "思维导图",
+      "frontmatter": {},
+      "regularPath": "/node/",
+      "relativePath": "node/README.md",
+      "key": "v-133f812f",
+      "path": "/node/"
+    },
+    {
+      "title": "jsbase 2",
+      "frontmatter": {},
+      "regularPath": "/node/base/1.html",
+      "relativePath": "node/base/1.md",
+      "key": "v-2156b7ef",
+      "path": "/node/base/1.html"
+    },
+    {
+      "title": "jsbase 1",
+      "frontmatter": {},
+      "regularPath": "/node/base/2.html",
+      "relativePath": "node/base/2.md",
+      "key": "v-2fa4860f",
+      "path": "/node/base/2.html"
+    },
+    {
+      "title": "2",
+      "frontmatter": {},
+      "regularPath": "/note/",
+      "relativePath": "note/README.md",
+      "key": "v-5c5ddf2f",
+      "path": "/note/"
+    },
+    {
+      "title": "使用指南",
+      "frontmatter": {},
+      "regularPath": "/note/guide.html",
+      "relativePath": "note/guide.md",
+      "key": "v-43ccb5aa",
+      "path": "/note/guide.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1. 点击展开或缩起的内容",
+          "slug": "_1-点击展开或缩起的内容"
+        },
+        {
+          "level": 2,
+          "title": "2. 怎么展示本地图片",
+          "slug": "_2-怎么展示本地图片"
+        },
+        {
+          "level": 2,
+          "title": "3. 怎么实现点击放大本地图片",
+          "slug": "_3-怎么实现点击放大本地图片"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/css/Css/1.html",
+      "relativePath": "css/Css/1.md",
+      "key": "v-634117d5",
+      "path": "/css/Css/1.html"
+    },
+    {
       "title": "1. 什么是后台权限",
       "frontmatter": {},
       "regularPath": "/note/pit.html",
@@ -1957,6 +1885,71 @@ export const siteData = {
       ]
     },
     {
+      "title": "1. vue",
+      "frontmatter": {},
+      "regularPath": "/plan/",
+      "relativePath": "plan/README.md",
+      "key": "v-01e1f80f",
+      "path": "/plan/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1. vue",
+          "slug": "_1-vue"
+        },
+        {
+          "level": 3,
+          "title": "1-1 vue源码",
+          "slug": "_1-1-vue源码"
+        },
+        {
+          "level": 3,
+          "title": "1-2 vue各个使用小技能",
+          "slug": "_1-2-vue各个使用小技能"
+        },
+        {
+          "level": 3,
+          "title": "1-3 vue坑",
+          "slug": "_1-3-vue坑"
+        },
+        {
+          "level": 3,
+          "title": "1-4 vue重要原理",
+          "slug": "_1-4-vue重要原理"
+        },
+        {
+          "level": 3,
+          "title": "1-5 vue生态 ，vuex vue-router vue-cli",
+          "slug": "_1-5-vue生态-vuex-vue-router-vue-cli"
+        },
+        {
+          "level": 2,
+          "title": "2. js",
+          "slug": "_2-js"
+        },
+        {
+          "level": 3,
+          "title": "2-1 js原理",
+          "slug": "_2-1-js原理"
+        },
+        {
+          "level": 3,
+          "title": "2-2 js算法",
+          "slug": "_2-2-js算法"
+        },
+        {
+          "level": 2,
+          "title": "3. 浏览器",
+          "slug": "_3-浏览器"
+        },
+        {
+          "level": 2,
+          "title": "4. 已做项目总结",
+          "slug": "_4-已做项目总结"
+        }
+      ]
+    },
+    {
       "frontmatter": {},
       "regularPath": "/note/react1.html",
       "relativePath": "note/react1.md",
@@ -1985,51 +1978,6 @@ export const siteData = {
           "level": 3,
           "title": "swagger",
           "slug": "swagger"
-        }
-      ]
-    },
-    {
-      "title": "实现一个swagger搜索的插件",
-      "frontmatter": {},
-      "regularPath": "/tools/chajian/1.html",
-      "relativePath": "tools/chajian/1.md",
-      "key": "v-7ebc10b5",
-      "path": "/tools/chajian/1.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "背景",
-          "slug": "背景"
-        },
-        {
-          "level": 2,
-          "title": "项目源码",
-          "slug": "项目源码"
-        },
-        {
-          "level": 2,
-          "title": "实现",
-          "slug": "实现"
-        },
-        {
-          "level": 3,
-          "title": "目录结构",
-          "slug": "目录结构"
-        },
-        {
-          "level": 3,
-          "title": "manifest.json",
-          "slug": "manifest-json"
-        },
-        {
-          "level": 3,
-          "title": "index.js",
-          "slug": "index-js"
-        },
-        {
-          "level": 2,
-          "title": "发布",
-          "slug": "发布"
         }
       ]
     },
@@ -2104,6 +2052,13 @@ export const siteData = {
       ]
     },
     {
+      "frontmatter": {},
+      "regularPath": "/note/react.html",
+      "relativePath": "note/react.md",
+      "key": "v-b1f9f4b8",
+      "path": "/note/react.html"
+    },
+    {
       "title": "长期规划",
       "frontmatter": {},
       "regularPath": "/plan/planLong/text1.html",
@@ -2147,86 +2102,97 @@ export const siteData = {
       ]
     },
     {
-      "title": "以下内容为HTML 基础篇（1）",
+      "title": "实现一个swagger搜索的插件",
       "frontmatter": {},
-      "regularPath": "/tools/vscode/2.html",
-      "relativePath": "tools/vscode/2.md",
-      "key": "v-3817f3ce",
-      "path": "/tools/vscode/2.html",
+      "regularPath": "/tools/chajian/1.html",
+      "relativePath": "tools/chajian/1.md",
+      "key": "v-7ebc10b5",
+      "path": "/tools/chajian/1.html",
       "headers": [
         {
           "level": 2,
-          "title": "1. html5新增特性？",
-          "slug": "_1-html5新增特性"
+          "title": "背景",
+          "slug": "背景"
         },
         {
           "level": 2,
-          "title": "2.行内元素有哪些？块级元素有哪些？ 空(void)元素有那些？",
-          "slug": "_2-行内元素有哪些-块级元素有哪些-空-void-元素有那些"
+          "title": "项目源码",
+          "slug": "项目源码"
         },
         {
           "level": 2,
-          "title": "3.标签上title属性与alt属性的区别是什么",
-          "slug": "_3-标签上title属性与alt属性的区别是什么"
+          "title": "实现",
+          "slug": "实现"
+        },
+        {
+          "level": 3,
+          "title": "目录结构",
+          "slug": "目录结构"
+        },
+        {
+          "level": 3,
+          "title": "manifest.json",
+          "slug": "manifest-json"
+        },
+        {
+          "level": 3,
+          "title": "index.js",
+          "slug": "index-js"
         },
         {
           "level": 2,
-          "title": "4. 语义化标签",
-          "slug": "_4-语义化标签"
-        },
-        {
-          "level": 2,
-          "title": "5. iframe有哪些优缺点",
-          "slug": "_5-iframe有哪些优缺点"
-        },
-        {
-          "level": 2,
-          "title": "6. src与href有什么区别",
-          "slug": "_6-src与href有什么区别"
-        },
-        {
-          "level": 2,
-          "title": "7. property和attribute的区别是什么",
-          "slug": "_7-property和attribute的区别是什么"
-        },
-        {
-          "level": 2,
-          "title": "8. HTML5的Web storage的存储方式有两种：sessionStorage和localStorage。",
-          "slug": "_8-html5的web-storage的存储方式有两种-sessionstorage和localstorage。"
-        },
-        {
-          "level": 2,
-          "title": "9. 常见的浏览器内核有哪些",
-          "slug": "_9-常见的浏览器内核有哪些"
-        },
-        {
-          "level": 2,
-          "title": "10.  Canvas",
-          "slug": "_10-canvas"
+          "title": "发布",
+          "slug": "发布"
         }
       ]
     },
     {
+      "title": "一. 更新",
       "frontmatter": {},
-      "regularPath": "/tools/vscode/1.html",
-      "relativePath": "tools/vscode/1.md",
-      "key": "v-3384c2ca",
-      "path": "/tools/vscode/1.html",
+      "regularPath": "/tools/git/1.html",
+      "relativePath": "tools/git/1.md",
+      "key": "v-cafb0316",
+      "path": "/tools/git/1.html",
       "headers": [
         {
+          "level": 2,
+          "title": "一. 更新",
+          "slug": "一-更新"
+        },
+        {
           "level": 3,
-          "title": "vue怎么 实现调用浏览器打印的功能",
-          "slug": "vue怎么-实现调用浏览器打印的功能"
+          "title": "1. 更新远程分支到本地",
+          "slug": "_1-更新远程分支到本地"
+        },
+        {
+          "level": 3,
+          "title": "2. 将远程某个分支的代码更新到本地",
+          "slug": "_2-将远程某个分支的代码更新到本地"
+        },
+        {
+          "level": 3,
+          "title": "3. 将本地一个分支的代码更新到另外一个分支上",
+          "slug": "_3-将本地一个分支的代码更新到另外一个分支上"
         },
         {
           "level": 2,
-          "title": "1. 怎么使用鼠标控制字体大小",
-          "slug": "_1-怎么使用鼠标控制字体大小"
+          "title": "二.查看",
+          "slug": "二-查看"
         },
         {
-          "level": 2,
-          "title": "2.怎么查看每一行的代码提交记录",
-          "slug": "_2-怎么查看每一行的代码提交记录"
+          "level": 3,
+          "title": "1.查看本地分支",
+          "slug": "_1-查看本地分支"
+        },
+        {
+          "level": 3,
+          "title": "2.查看所有分支",
+          "slug": "_2-查看所有分支"
+        },
+        {
+          "level": 3,
+          "title": "3. 给分支添加描述",
+          "slug": "_3-给分支添加描述"
         }
       ]
     },
@@ -2877,6 +2843,90 @@ export const siteData = {
     },
     {
       "frontmatter": {},
+      "regularPath": "/tools/vscode/1.html",
+      "relativePath": "tools/vscode/1.md",
+      "key": "v-3384c2ca",
+      "path": "/tools/vscode/1.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "vue怎么 实现调用浏览器打印的功能",
+          "slug": "vue怎么-实现调用浏览器打印的功能"
+        },
+        {
+          "level": 2,
+          "title": "1. 怎么使用鼠标控制字体大小",
+          "slug": "_1-怎么使用鼠标控制字体大小"
+        },
+        {
+          "level": 2,
+          "title": "2.怎么查看每一行的代码提交记录",
+          "slug": "_2-怎么查看每一行的代码提交记录"
+        }
+      ]
+    },
+    {
+      "title": "以下内容为HTML 基础篇（1）",
+      "frontmatter": {},
+      "regularPath": "/tools/vscode/2.html",
+      "relativePath": "tools/vscode/2.md",
+      "key": "v-3817f3ce",
+      "path": "/tools/vscode/2.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1. html5新增特性？",
+          "slug": "_1-html5新增特性"
+        },
+        {
+          "level": 2,
+          "title": "2.行内元素有哪些？块级元素有哪些？ 空(void)元素有那些？",
+          "slug": "_2-行内元素有哪些-块级元素有哪些-空-void-元素有那些"
+        },
+        {
+          "level": 2,
+          "title": "3.标签上title属性与alt属性的区别是什么",
+          "slug": "_3-标签上title属性与alt属性的区别是什么"
+        },
+        {
+          "level": 2,
+          "title": "4. 语义化标签",
+          "slug": "_4-语义化标签"
+        },
+        {
+          "level": 2,
+          "title": "5. iframe有哪些优缺点",
+          "slug": "_5-iframe有哪些优缺点"
+        },
+        {
+          "level": 2,
+          "title": "6. src与href有什么区别",
+          "slug": "_6-src与href有什么区别"
+        },
+        {
+          "level": 2,
+          "title": "7. property和attribute的区别是什么",
+          "slug": "_7-property和attribute的区别是什么"
+        },
+        {
+          "level": 2,
+          "title": "8. HTML5的Web storage的存储方式有两种：sessionStorage和localStorage。",
+          "slug": "_8-html5的web-storage的存储方式有两种-sessionstorage和localstorage。"
+        },
+        {
+          "level": 2,
+          "title": "9. 常见的浏览器内核有哪些",
+          "slug": "_9-常见的浏览器内核有哪些"
+        },
+        {
+          "level": 2,
+          "title": "10.  Canvas",
+          "slug": "_10-canvas"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/tools/webpack/2.html",
       "relativePath": "tools/webpack/2.md",
       "key": "v-1afc0316",
@@ -2891,56 +2941,6 @@ export const siteData = {
           "level": 2,
           "title": "2. 打包图片",
           "slug": "_2-打包图片"
-        }
-      ]
-    },
-    {
-      "title": "一. 更新",
-      "frontmatter": {},
-      "regularPath": "/tools/git/1.html",
-      "relativePath": "tools/git/1.md",
-      "key": "v-cafb0316",
-      "path": "/tools/git/1.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一. 更新",
-          "slug": "一-更新"
-        },
-        {
-          "level": 3,
-          "title": "1. 更新远程分支到本地",
-          "slug": "_1-更新远程分支到本地"
-        },
-        {
-          "level": 3,
-          "title": "2. 将远程某个分支的代码更新到本地",
-          "slug": "_2-将远程某个分支的代码更新到本地"
-        },
-        {
-          "level": 3,
-          "title": "3. 将本地一个分支的代码更新到另外一个分支上",
-          "slug": "_3-将本地一个分支的代码更新到另外一个分支上"
-        },
-        {
-          "level": 2,
-          "title": "二.查看",
-          "slug": "二-查看"
-        },
-        {
-          "level": 3,
-          "title": "1.查看本地分支",
-          "slug": "_1-查看本地分支"
-        },
-        {
-          "level": 3,
-          "title": "2.查看所有分支",
-          "slug": "_2-查看所有分支"
-        },
-        {
-          "level": 3,
-          "title": "3. 给分支添加描述",
-          "slug": "_3-给分支添加描述"
         }
       ]
     },
@@ -3029,13 +3029,6 @@ export const siteData = {
       ]
     },
     {
-      "frontmatter": {},
-      "regularPath": "/tools/webpack/4.html",
-      "relativePath": "tools/webpack/4.md",
-      "key": "v-03676c96",
-      "path": "/tools/webpack/4.html"
-    },
-    {
       "title": "1. 简单介绍",
       "frontmatter": {},
       "regularPath": "/tools/webpack/3.html",
@@ -3056,26 +3049,19 @@ export const siteData = {
       ]
     },
     {
-      "frontmatter": {},
-      "regularPath": "/tools/webpack/5.html",
-      "relativePath": "tools/webpack/5.md",
-      "key": "v-f79d2156",
-      "path": "/tools/webpack/5.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/tools/webpack/6.html",
-      "relativePath": "tools/webpack/6.md",
-      "key": "v-0a1694f5",
-      "path": "/tools/webpack/6.html"
-    },
-    {
       "title": "text1.md",
       "frontmatter": {},
       "regularPath": "/ts/Interview/1.html",
       "relativePath": "ts/Interview/1.md",
       "key": "v-1a26d122",
       "path": "/ts/Interview/1.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/tools/webpack/4.html",
+      "relativePath": "tools/webpack/4.md",
+      "key": "v-03676c96",
+      "path": "/tools/webpack/4.html"
     },
     {
       "title": "text2.md",
@@ -3094,6 +3080,14 @@ export const siteData = {
       "path": "/ts/"
     },
     {
+      "title": "jsbase 2",
+      "frontmatter": {},
+      "regularPath": "/ts/base/1.html",
+      "relativePath": "ts/base/1.md",
+      "key": "v-69a5e8e2",
+      "path": "/ts/base/1.html"
+    },
+    {
       "title": "jsbase 1",
       "frontmatter": {},
       "regularPath": "/ts/base/2.html",
@@ -3102,20 +3096,34 @@ export const siteData = {
       "path": "/ts/base/2.html"
     },
     {
+      "frontmatter": {},
+      "regularPath": "/tools/webpack/5.html",
+      "relativePath": "tools/webpack/5.md",
+      "key": "v-f79d2156",
+      "path": "/tools/webpack/5.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/tools/webpack/6.html",
+      "relativePath": "tools/webpack/6.md",
+      "key": "v-0a1694f5",
+      "path": "/tools/webpack/6.html"
+    },
+    {
+      "title": "ES61",
+      "frontmatter": {},
+      "regularPath": "/vue/ES6/1.html",
+      "relativePath": "vue/ES6/1.md",
+      "key": "v-04af6ed5",
+      "path": "/vue/ES6/1.html"
+    },
+    {
       "title": "ES62",
       "frontmatter": {},
       "regularPath": "/vue/ES6/2.html",
       "relativePath": "vue/ES6/2.md",
       "key": "v-57e2ad96",
       "path": "/vue/ES6/2.html"
-    },
-    {
-      "title": "jsbase 2",
-      "frontmatter": {},
-      "regularPath": "/ts/base/1.html",
-      "relativePath": "ts/base/1.md",
-      "key": "v-69a5e8e2",
-      "path": "/ts/base/1.html"
     },
     {
       "title": "1. vue 的模板渲染",
@@ -3133,12 +3141,12 @@ export const siteData = {
       ]
     },
     {
-      "title": "ES61",
+      "title": "text2.md",
       "frontmatter": {},
-      "regularPath": "/vue/ES6/1.html",
-      "relativePath": "vue/ES6/1.md",
-      "key": "v-04af6ed5",
-      "path": "/vue/ES6/1.html"
+      "regularPath": "/vue/Interview/2.html",
+      "relativePath": "vue/Interview/2.md",
+      "key": "v-8ff9c7d6",
+      "path": "/vue/Interview/2.html"
     },
     {
       "title": "思维导图",
@@ -3184,73 +3192,6 @@ export const siteData = {
           "level": 2,
           "title": "4. mounted",
           "slug": "_4-mounted"
-        }
-      ]
-    },
-    {
-      "title": "text2.md",
-      "frontmatter": {},
-      "regularPath": "/vue/Interview/2.html",
-      "relativePath": "vue/Interview/2.md",
-      "key": "v-8ff9c7d6",
-      "path": "/vue/Interview/2.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/vue/SourceCode/4.html",
-      "relativePath": "vue/SourceCode/4.md",
-      "key": "v-3f38e522",
-      "path": "/vue/SourceCode/4.html"
-    },
-    {
-      "frontmatter": {
-        "theme": "juejin",
-        "highlight": "arduino-light"
-      },
-      "regularPath": "/vue/SourceCode/5.html",
-      "relativePath": "vue/SourceCode/5.md",
-      "key": "v-381c8da6",
-      "path": "/vue/SourceCode/5.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "1. new Vue之前",
-          "slug": "_1-new-vue之前"
-        },
-        {
-          "level": 2,
-          "title": "2. initState 初始化状态",
-          "slug": "_2-initstate-初始化状态"
-        },
-        {
-          "level": 2,
-          "title": "3. initData 初始化数据",
-          "slug": "_3-initdata-初始化数据"
-        },
-        {
-          "level": 3,
-          "title": "3-1. getData 转换数据",
-          "slug": "_3-1-getdata-转换数据"
-        },
-        {
-          "level": 3,
-          "title": "3-2 proxy",
-          "slug": "_3-2-proxy"
-        },
-        {
-          "level": 3,
-          "title": "3-3 observe",
-          "slug": "_3-3-observe"
-        },
-        {
-          "level": 2,
-          "title": "4. defineReactive",
-          "slug": "_4-definereactive"
-        },
-        {
-          "level": 3,
-          "title": "4-1 Dep",
-          "slug": "_4-1-dep"
         }
       ]
     },
@@ -3410,6 +3351,65 @@ export const siteData = {
     },
     {
       "frontmatter": {},
+      "regularPath": "/vue/SourceCode/4.html",
+      "relativePath": "vue/SourceCode/4.md",
+      "key": "v-3f38e522",
+      "path": "/vue/SourceCode/4.html"
+    },
+    {
+      "frontmatter": {
+        "theme": "juejin",
+        "highlight": "arduino-light"
+      },
+      "regularPath": "/vue/SourceCode/5.html",
+      "relativePath": "vue/SourceCode/5.md",
+      "key": "v-381c8da6",
+      "path": "/vue/SourceCode/5.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1. new Vue之前",
+          "slug": "_1-new-vue之前"
+        },
+        {
+          "level": 2,
+          "title": "2. initState 初始化状态",
+          "slug": "_2-initstate-初始化状态"
+        },
+        {
+          "level": 2,
+          "title": "3. initData 初始化数据",
+          "slug": "_3-initdata-初始化数据"
+        },
+        {
+          "level": 3,
+          "title": "3-1. getData 转换数据",
+          "slug": "_3-1-getdata-转换数据"
+        },
+        {
+          "level": 3,
+          "title": "3-2 proxy",
+          "slug": "_3-2-proxy"
+        },
+        {
+          "level": 3,
+          "title": "3-3 observe",
+          "slug": "_3-3-observe"
+        },
+        {
+          "level": 2,
+          "title": "4. defineReactive",
+          "slug": "_4-definereactive"
+        },
+        {
+          "level": 3,
+          "title": "4-1 Dep",
+          "slug": "_4-1-dep"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/vue/SourceCode/3.html",
       "relativePath": "vue/SourceCode/3.md",
       "key": "v-46553c9e",
@@ -3471,14 +3471,6 @@ export const siteData = {
           "slug": "_6-generate"
         }
       ]
-    },
-    {
-      "title": "2",
-      "frontmatter": {},
-      "regularPath": "/vuePress/",
-      "relativePath": "vuePress/README.md",
-      "key": "v-ac1dd3e2",
-      "path": "/vuePress/"
     },
     {
       "title": "1. 背景",
@@ -3597,6 +3589,125 @@ export const siteData = {
           "level": 3,
           "title": "setup",
           "slug": "setup"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/vue/vuex/1copy.html",
+      "relativePath": "vue/vuex/1copy.md",
+      "key": "v-5c42f777",
+      "path": "/vue/vuex/1copy.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1.背景",
+          "slug": "_1-背景"
+        },
+        {
+          "level": 2,
+          "title": "2. 什么是Vuex",
+          "slug": "_2-什么是vuex"
+        },
+        {
+          "level": 2,
+          "title": "3. Vuex的优缺点",
+          "slug": "_3-vuex的优缺点"
+        },
+        {
+          "level": 2,
+          "title": "4. 为什么要用Vuex，它解决了什么问题",
+          "slug": "_4-为什么要用vuex-它解决了什么问题"
+        },
+        {
+          "level": 2,
+          "title": "5.简单使用",
+          "slug": "_5-简单使用"
+        },
+        {
+          "level": 2,
+          "title": "6. Vuex的5大属性",
+          "slug": "_6-vuex的5大属性"
+        },
+        {
+          "level": 3,
+          "title": "6-1. state",
+          "slug": "_6-1-state"
+        },
+        {
+          "level": 3,
+          "title": "6-2. Getter",
+          "slug": "_6-2-getter"
+        },
+        {
+          "level": 3,
+          "title": "6-3. Mutation",
+          "slug": "_6-3-mutation"
+        },
+        {
+          "level": 3,
+          "title": "6-4. Action",
+          "slug": "_6-4-action"
+        },
+        {
+          "level": 3,
+          "title": "6-5. Module",
+          "slug": "_6-5-module"
+        },
+        {
+          "level": 2,
+          "title": "7. Vuex的辅助函数",
+          "slug": "_7-vuex的辅助函数"
+        },
+        {
+          "level": 3,
+          "title": "(1)mapState",
+          "slug": "_1-mapstate"
+        },
+        {
+          "level": 3,
+          "title": "(2)mapGetters",
+          "slug": "_2-mapgetters"
+        },
+        {
+          "level": 2,
+          "title": "(3)mapMutations",
+          "slug": "_3-mapmutations"
+        },
+        {
+          "level": 3,
+          "title": "(4)mapActions",
+          "slug": "_4-mapactions"
+        },
+        {
+          "level": 2,
+          "title": "8. Vuex的插件--打印日志createLogger",
+          "slug": "_8-vuex的插件-打印日志createlogger"
+        },
+        {
+          "level": 3,
+          "title": "(1) 在Vuex的文件中引入createLogger",
+          "slug": "_1-在vuex的文件中引入createlogger"
+        },
+        {
+          "level": 3,
+          "title": "（2）使用后的效果",
+          "slug": "_2-使用后的效果"
+        },
+        {
+          "level": 2,
+          "title": "9. vuex页面刷新数据丢失的解决办法--vuex-persistedstate",
+          "slug": "_9-vuex页面刷新数据丢失的解决办法-vuex-persistedstate"
+        },
+        {
+          "level": 3,
+          "title": "(1) 安装",
+          "slug": "_1-安装"
+        },
+        {
+          "level": 3,
+          "title": "(2) 使用",
+          "slug": "_2-使用"
         }
       ]
     },
@@ -3766,36 +3877,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "使用指南",
-      "frontmatter": {},
-      "regularPath": "/vuePress/guide.html",
-      "relativePath": "vuePress/guide.md",
-      "key": "v-675ed5d4",
-      "path": "/vuePress/guide.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "1. 点击展开或缩起的内容",
-          "slug": "_1-点击展开或缩起的内容"
-        },
-        {
-          "level": 2,
-          "title": "2. 怎么展示本地图片",
-          "slug": "_2-怎么展示本地图片"
-        },
-        {
-          "level": 2,
-          "title": "3. 怎么实现点击放大本地图片",
-          "slug": "_3-怎么实现点击放大本地图片"
-        },
-        {
-          "level": 2,
-          "title": "3. 代码使得代码高亮",
-          "slug": "_3-代码使得代码高亮"
-        }
-      ]
-    },
-    {
       "title": "1. 直接修改与commit提交mutation修改state的差异",
       "frontmatter": {},
       "regularPath": "/vue/vuex/2.html",
@@ -3886,121 +3967,40 @@ export const siteData = {
       ]
     },
     {
+      "title": "2",
       "frontmatter": {},
-      "regularPath": "/vue/vuex/1copy.html",
-      "relativePath": "vue/vuex/1copy.md",
-      "key": "v-5c42f777",
-      "path": "/vue/vuex/1copy.html",
+      "regularPath": "/vuePress/",
+      "relativePath": "vuePress/README.md",
+      "key": "v-ac1dd3e2",
+      "path": "/vuePress/"
+    },
+    {
+      "title": "使用指南",
+      "frontmatter": {},
+      "regularPath": "/vuePress/guide.html",
+      "relativePath": "vuePress/guide.md",
+      "key": "v-675ed5d4",
+      "path": "/vuePress/guide.html",
       "headers": [
         {
           "level": 2,
-          "title": "1.背景",
-          "slug": "_1-背景"
+          "title": "1. 点击展开或缩起的内容",
+          "slug": "_1-点击展开或缩起的内容"
         },
         {
           "level": 2,
-          "title": "2. 什么是Vuex",
-          "slug": "_2-什么是vuex"
+          "title": "2. 怎么展示本地图片",
+          "slug": "_2-怎么展示本地图片"
         },
         {
           "level": 2,
-          "title": "3. Vuex的优缺点",
-          "slug": "_3-vuex的优缺点"
+          "title": "3. 怎么实现点击放大本地图片",
+          "slug": "_3-怎么实现点击放大本地图片"
         },
         {
           "level": 2,
-          "title": "4. 为什么要用Vuex，它解决了什么问题",
-          "slug": "_4-为什么要用vuex-它解决了什么问题"
-        },
-        {
-          "level": 2,
-          "title": "5.简单使用",
-          "slug": "_5-简单使用"
-        },
-        {
-          "level": 2,
-          "title": "6. Vuex的5大属性",
-          "slug": "_6-vuex的5大属性"
-        },
-        {
-          "level": 3,
-          "title": "6-1. state",
-          "slug": "_6-1-state"
-        },
-        {
-          "level": 3,
-          "title": "6-2. Getter",
-          "slug": "_6-2-getter"
-        },
-        {
-          "level": 3,
-          "title": "6-3. Mutation",
-          "slug": "_6-3-mutation"
-        },
-        {
-          "level": 3,
-          "title": "6-4. Action",
-          "slug": "_6-4-action"
-        },
-        {
-          "level": 3,
-          "title": "6-5. Module",
-          "slug": "_6-5-module"
-        },
-        {
-          "level": 2,
-          "title": "7. Vuex的辅助函数",
-          "slug": "_7-vuex的辅助函数"
-        },
-        {
-          "level": 3,
-          "title": "(1)mapState",
-          "slug": "_1-mapstate"
-        },
-        {
-          "level": 3,
-          "title": "(2)mapGetters",
-          "slug": "_2-mapgetters"
-        },
-        {
-          "level": 2,
-          "title": "(3)mapMutations",
-          "slug": "_3-mapmutations"
-        },
-        {
-          "level": 3,
-          "title": "(4)mapActions",
-          "slug": "_4-mapactions"
-        },
-        {
-          "level": 2,
-          "title": "8. Vuex的插件--打印日志createLogger",
-          "slug": "_8-vuex的插件-打印日志createlogger"
-        },
-        {
-          "level": 3,
-          "title": "(1) 在Vuex的文件中引入createLogger",
-          "slug": "_1-在vuex的文件中引入createlogger"
-        },
-        {
-          "level": 3,
-          "title": "（2）使用后的效果",
-          "slug": "_2-使用后的效果"
-        },
-        {
-          "level": 2,
-          "title": "9. vuex页面刷新数据丢失的解决办法--vuex-persistedstate",
-          "slug": "_9-vuex页面刷新数据丢失的解决办法-vuex-persistedstate"
-        },
-        {
-          "level": 3,
-          "title": "(1) 安装",
-          "slug": "_1-安装"
-        },
-        {
-          "level": 3,
-          "title": "(2) 使用",
-          "slug": "_2-使用"
+          "title": "3. 代码使得代码高亮",
+          "slug": "_3-代码使得代码高亮"
         }
       ]
     },
@@ -4026,6 +4026,45 @@ export const siteData = {
           "level": 2,
           "title": "怎么放大图片",
           "slug": "怎么放大图片"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/xcx/ES6/ES61.html",
+      "relativePath": "xcx/ES6/ES61.md",
+      "key": "v-e4f56686",
+      "path": "/xcx/ES6/ES61.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1. 导航",
+          "slug": "_1-导航"
+        },
+        {
+          "level": 3,
+          "title": "1-1. 自定义导航",
+          "slug": "_1-1-自定义导航"
+        },
+        {
+          "level": 3,
+          "title": "1-2. 自定义按钮与小程序关闭按钮块对齐",
+          "slug": "_1-2-自定义按钮与小程序关闭按钮块对齐"
+        },
+        {
+          "level": 2,
+          "title": "2. 自定义分享按钮",
+          "slug": "_2-自定义分享按钮"
+        },
+        {
+          "level": 2,
+          "title": "3. 联系客服",
+          "slug": "_3-联系客服"
+        },
+        {
+          "level": 2,
+          "title": "4. 返回上一页",
+          "slug": "_4-返回上一页"
         }
       ]
     },
@@ -4510,43 +4549,19 @@ export const siteData = {
       ]
     },
     {
+      "title": "ES62",
       "frontmatter": {},
-      "regularPath": "/xcx/ES6/ES61.html",
-      "relativePath": "xcx/ES6/ES61.md",
-      "key": "v-e4f56686",
-      "path": "/xcx/ES6/ES61.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "1. 导航",
-          "slug": "_1-导航"
-        },
-        {
-          "level": 3,
-          "title": "1-1. 自定义导航",
-          "slug": "_1-1-自定义导航"
-        },
-        {
-          "level": 3,
-          "title": "1-2. 自定义按钮与小程序关闭按钮块对齐",
-          "slug": "_1-2-自定义按钮与小程序关闭按钮块对齐"
-        },
-        {
-          "level": 2,
-          "title": "2. 自定义分享按钮",
-          "slug": "_2-自定义分享按钮"
-        },
-        {
-          "level": 2,
-          "title": "3. 联系客服",
-          "slug": "_3-联系客服"
-        },
-        {
-          "level": 2,
-          "title": "4. 返回上一页",
-          "slug": "_4-返回上一页"
-        }
-      ]
+      "regularPath": "/xcx/ES6/ES62.html",
+      "relativePath": "xcx/ES6/ES62.md",
+      "key": "v-15bfdffb",
+      "path": "/xcx/ES6/ES62.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/vue/vuex/1.html",
+      "relativePath": "vue/vuex/1.md",
+      "key": "v-76bedc61",
+      "path": "/vue/vuex/1.html"
     },
     {
       "title": "手写函数(简单)",
@@ -4557,43 +4572,12 @@ export const siteData = {
       "path": "/xcx/Function/text1.html"
     },
     {
-      "frontmatter": {},
-      "regularPath": "/vue/vuex/1.html",
-      "relativePath": "vue/vuex/1.md",
-      "key": "v-76bedc61",
-      "path": "/vue/vuex/1.html"
-    },
-    {
       "title": "手写函数(复杂)",
       "frontmatter": {},
       "regularPath": "/xcx/Function/text2.html",
       "relativePath": "xcx/Function/text2.md",
       "key": "v-4231520a",
       "path": "/xcx/Function/text2.html"
-    },
-    {
-      "title": "思维导图",
-      "frontmatter": {},
-      "regularPath": "/xcx/",
-      "relativePath": "xcx/README.md",
-      "key": "v-432a5e86",
-      "path": "/xcx/"
-    },
-    {
-      "title": "ES62",
-      "frontmatter": {},
-      "regularPath": "/xcx/ES6/ES62.html",
-      "relativePath": "xcx/ES6/ES62.md",
-      "key": "v-15bfdffb",
-      "path": "/xcx/ES6/ES62.html"
-    },
-    {
-      "title": "jsbase 1",
-      "frontmatter": {},
-      "regularPath": "/xcx/JS/2.html",
-      "relativePath": "xcx/JS/2.md",
-      "key": "v-14b211ff",
-      "path": "/xcx/JS/2.html"
     },
     {
       "title": "1. 时间兼容",
@@ -4614,6 +4598,22 @@ export const siteData = {
           "slug": "_1-1-ios无法识别-2019-02-28-9-00"
         }
       ]
+    },
+    {
+      "title": "jsbase 1",
+      "frontmatter": {},
+      "regularPath": "/xcx/JS/2.html",
+      "relativePath": "xcx/JS/2.md",
+      "key": "v-14b211ff",
+      "path": "/xcx/JS/2.html"
+    },
+    {
+      "title": "思维导图",
+      "frontmatter": {},
+      "regularPath": "/xcx/",
+      "relativePath": "xcx/README.md",
+      "key": "v-432a5e86",
+      "path": "/xcx/"
     }
   ],
   "themeConfig": {
