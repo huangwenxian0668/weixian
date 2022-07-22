@@ -56,20 +56,20 @@ export const siteData = {
       "path": "/"
     },
     {
-      "title": "ES61",
-      "frontmatter": {},
-      "regularPath": "/js/ES6/ES61.html",
-      "relativePath": "js/ES6/ES61.md",
-      "key": "v-c14772ae",
-      "path": "/js/ES6/ES61.html"
-    },
-    {
       "title": "ES62",
       "frontmatter": {},
       "regularPath": "/js/ES6/ES62.html",
       "relativePath": "js/ES6/ES62.md",
       "key": "v-a4abd66e",
       "path": "/js/ES6/ES62.html"
+    },
+    {
+      "title": "手写函数(复杂)",
+      "frontmatter": {},
+      "regularPath": "/js/Function/text2.html",
+      "relativePath": "js/Function/text2.md",
+      "key": "v-09ec1f6f",
+      "path": "/js/Function/text2.html"
     },
     {
       "title": "手写函数(简单)",
@@ -95,14 +95,6 @@ export const siteData = {
           "slug": "_1-2-当前时间距离当前月月末的倒计时"
         }
       ]
-    },
-    {
-      "title": "手写函数(复杂)",
-      "frontmatter": {},
-      "regularPath": "/js/Function/text2.html",
-      "relativePath": "js/Function/text2.md",
-      "key": "v-09ec1f6f",
-      "path": "/js/Function/text2.html"
     },
     {
       "title": "1. 函数声明",
@@ -155,6 +147,14 @@ export const siteData = {
       ]
     },
     {
+      "title": "思维导图",
+      "frontmatter": {},
+      "regularPath": "/js/",
+      "relativePath": "js/README.md",
+      "key": "v-715a4f4f",
+      "path": "/js/"
+    },
+    {
       "title": "算法笔记",
       "frontmatter": {},
       "regularPath": "/js/JS/3.html",
@@ -178,14 +178,6 @@ export const siteData = {
           "slug": "_2-dom-节点查找"
         }
       ]
-    },
-    {
-      "title": "思维导图",
-      "frontmatter": {},
-      "regularPath": "/js/",
-      "relativePath": "js/README.md",
-      "key": "v-715a4f4f",
-      "path": "/js/"
     },
     {
       "title": "1 声明",
@@ -592,63 +584,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "手写函数(复杂)",
-      "frontmatter": {},
-      "regularPath": "/js/reg/text2.html",
-      "relativePath": "js/reg/text2.md",
-      "key": "v-6f630966",
-      "path": "/js/reg/text2.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/js/ast.html",
-      "relativePath": "js/ast.md",
-      "key": "v-6f495b30",
-      "path": "/js/ast.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "1. 什么是AST",
-          "slug": "_1-什么是ast"
-        },
-        {
-          "level": 2,
-          "title": "2. 原理",
-          "slug": "_2-原理"
-        },
-        {
-          "level": 2,
-          "title": "3. AST的用途",
-          "slug": "_3-ast的用途"
-        },
-        {
-          "level": 2,
-          "title": "4. AST使用3个流程",
-          "slug": "_4-ast使用3个流程"
-        },
-        {
-          "level": 2,
-          "title": "5. AST的结构",
-          "slug": "_5-ast的结构"
-        },
-        {
-          "level": 2,
-          "title": "6. AST编译过程",
-          "slug": "_6-ast编译过程"
-        },
-        {
-          "level": 2,
-          "title": "7. babel原理浅析",
-          "slug": "_7-babel原理浅析"
-        },
-        {
-          "level": 2,
-          "title": "8. vue中AST抽象语法树的运用;",
-          "slug": "_8-vue中ast抽象语法树的运用"
-        }
-      ]
-    },
-    {
       "title": "1. 什么是正则",
       "frontmatter": {},
       "regularPath": "/js/reg/text1.html",
@@ -722,6 +657,63 @@ export const siteData = {
           "slug": "_9-regexp-对象属性"
         }
       ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/js/ast.html",
+      "relativePath": "js/ast.md",
+      "key": "v-6f495b30",
+      "path": "/js/ast.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1. 什么是AST",
+          "slug": "_1-什么是ast"
+        },
+        {
+          "level": 2,
+          "title": "2. 原理",
+          "slug": "_2-原理"
+        },
+        {
+          "level": 2,
+          "title": "3. AST的用途",
+          "slug": "_3-ast的用途"
+        },
+        {
+          "level": 2,
+          "title": "4. AST使用3个流程",
+          "slug": "_4-ast使用3个流程"
+        },
+        {
+          "level": 2,
+          "title": "5. AST的结构",
+          "slug": "_5-ast的结构"
+        },
+        {
+          "level": 2,
+          "title": "6. AST编译过程",
+          "slug": "_6-ast编译过程"
+        },
+        {
+          "level": 2,
+          "title": "7. babel原理浅析",
+          "slug": "_7-babel原理浅析"
+        },
+        {
+          "level": 2,
+          "title": "8. vue中AST抽象语法树的运用;",
+          "slug": "_8-vue中ast抽象语法树的运用"
+        }
+      ]
+    },
+    {
+      "title": "手写函数(复杂)",
+      "frontmatter": {},
+      "regularPath": "/js/reg/text2.html",
+      "relativePath": "js/reg/text2.md",
+      "key": "v-6f630966",
+      "path": "/js/reg/text2.html"
     },
     {
       "title": "思维导图 业务",
@@ -918,11 +910,24 @@ export const siteData = {
       ]
     },
     {
+      "title": "1. 简单介绍",
       "frontmatter": {},
-      "regularPath": "/tools/webpack/5.html",
-      "relativePath": "tools/webpack/5.md",
-      "key": "v-f79d2156",
-      "path": "/tools/webpack/5.html"
+      "regularPath": "/tools/webpack/3.html",
+      "relativePath": "tools/webpack/3.md",
+      "key": "v-78672415",
+      "path": "/tools/webpack/3.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1. 简单介绍",
+          "slug": "_1-简单介绍"
+        },
+        {
+          "level": 2,
+          "title": "2. 基本概念",
+          "slug": "_2-基本概念"
+        }
+      ]
     },
     {
       "frontmatter": {},
@@ -1009,26 +1014,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "1. 简单介绍",
-      "frontmatter": {},
-      "regularPath": "/tools/webpack/3.html",
-      "relativePath": "tools/webpack/3.md",
-      "key": "v-78672415",
-      "path": "/tools/webpack/3.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "1. 简单介绍",
-          "slug": "_1-简单介绍"
-        },
-        {
-          "level": 2,
-          "title": "2. 基本概念",
-          "slug": "_2-基本概念"
-        }
-      ]
-    },
-    {
       "frontmatter": {},
       "regularPath": "/tools/webpack/2.html",
       "relativePath": "tools/webpack/2.md",
@@ -1056,10 +1041,10 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/tools/webpack/6.html",
-      "relativePath": "tools/webpack/6.md",
-      "key": "v-0a1694f5",
-      "path": "/tools/webpack/6.html"
+      "regularPath": "/tools/webpack/5.html",
+      "relativePath": "tools/webpack/5.md",
+      "key": "v-f79d2156",
+      "path": "/tools/webpack/5.html"
     },
     {
       "title": "2",
@@ -1068,6 +1053,13 @@ export const siteData = {
       "relativePath": "vuePress/README.md",
       "key": "v-ac1dd3e2",
       "path": "/vuePress/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/tools/webpack/6.html",
+      "relativePath": "tools/webpack/6.md",
+      "key": "v-0a1694f5",
+      "path": "/tools/webpack/6.html"
     },
     {
       "title": "使用指南",
@@ -1123,6 +1115,14 @@ export const siteData = {
           "slug": "怎么放大图片"
         }
       ]
+    },
+    {
+      "title": "ES61",
+      "frontmatter": {},
+      "regularPath": "/js/ES6/ES61.html",
+      "relativePath": "js/ES6/ES61.md",
+      "key": "v-c14772ae",
+      "path": "/js/ES6/ES61.html"
     }
   ],
   "themeConfig": {
