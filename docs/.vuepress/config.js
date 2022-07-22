@@ -1,7 +1,7 @@
 module.exports = {
 	title: '资料库', //标题
     description: '10点读书',
-    base:"/longweixia/",
+    base:"/huangwenxian0668/",
 	head: [
     
 		[
