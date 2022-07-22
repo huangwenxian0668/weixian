@@ -52,6 +52,14 @@ export const siteData = {
       "path": "/Photography/back/2.html"
     },
     {
+      "title": "ES62",
+      "frontmatter": {},
+      "regularPath": "/Photography/front/2.html",
+      "relativePath": "Photography/front/2.md",
+      "key": "v-ff9f3136",
+      "path": "/Photography/front/2.html"
+    },
+    {
       "title": "PS-高级暖色系列色彩详解",
       "frontmatter": {},
       "regularPath": "/Photography/back/1.html",
@@ -207,11 +215,20 @@ export const siteData = {
       ]
     },
     {
+      "title": "ES61",
       "frontmatter": {},
-      "regularPath": "/Photography/front/1.html",
-      "relativePath": "Photography/front/1.md",
-      "key": "v-552baa45",
-      "path": "/Photography/front/1.html"
+      "regularPath": "/browser/Console/1.html",
+      "relativePath": "browser/Console/1.md",
+      "key": "v-129c8c25",
+      "path": "/browser/Console/1.html"
+    },
+    {
+      "title": "ES62",
+      "frontmatter": {},
+      "regularPath": "/browser/Console/2.html",
+      "relativePath": "browser/Console/2.md",
+      "key": "v-4da27585",
+      "path": "/browser/Console/2.html"
     },
     {
       "title": "Home",
@@ -234,28 +251,27 @@ export const siteData = {
       "path": "/"
     },
     {
-      "title": "ES62",
+      "title": "jsbase 1",
       "frontmatter": {},
-      "regularPath": "/Photography/front/2.html",
-      "relativePath": "Photography/front/2.md",
-      "key": "v-ff9f3136",
-      "path": "/Photography/front/2.html"
+      "regularPath": "/browser/Http/2.html",
+      "relativePath": "browser/Http/2.md",
+      "key": "v-64e6f6a7",
+      "path": "/browser/Http/2.html"
     },
     {
-      "title": "ES61",
       "frontmatter": {},
-      "regularPath": "/browser/Console/1.html",
-      "relativePath": "browser/Console/1.md",
-      "key": "v-129c8c25",
-      "path": "/browser/Console/1.html"
+      "regularPath": "/Photography/front/1.html",
+      "relativePath": "Photography/front/1.md",
+      "key": "v-552baa45",
+      "path": "/Photography/front/1.html"
     },
     {
-      "title": "ES62",
+      "title": "text2.md",
       "frontmatter": {},
-      "regularPath": "/browser/Console/2.html",
-      "relativePath": "browser/Console/2.md",
-      "key": "v-4da27585",
-      "path": "/browser/Console/2.html"
+      "regularPath": "/browser/Interview/2.html",
+      "relativePath": "browser/Interview/2.md",
+      "key": "v-63bad945",
+      "path": "/browser/Interview/2.html"
     },
     {
       "title": "1.从URL输入到页面展现发生了什么",
@@ -438,28 +454,12 @@ export const siteData = {
       ]
     },
     {
-      "title": "jsbase 1",
-      "frontmatter": {},
-      "regularPath": "/browser/Http/2.html",
-      "relativePath": "browser/Http/2.md",
-      "key": "v-64e6f6a7",
-      "path": "/browser/Http/2.html"
-    },
-    {
       "title": "text1.md",
       "frontmatter": {},
       "regularPath": "/browser/Interview/1.html",
       "relativePath": "browser/Interview/1.md",
       "key": "v-38b61c25",
       "path": "/browser/Interview/1.html"
-    },
-    {
-      "title": "text2.md",
-      "frontmatter": {},
-      "regularPath": "/browser/Interview/2.html",
-      "relativePath": "browser/Interview/2.md",
-      "key": "v-63bad945",
-      "path": "/browser/Interview/2.html"
     },
     {
       "title": "思维导图",
@@ -724,6 +724,121 @@ export const siteData = {
       "path": "/css/Interview/1.html"
     },
     {
+      "title": "c ss",
+      "frontmatter": {},
+      "regularPath": "/css/",
+      "relativePath": "css/README.md",
+      "key": "v-62302021",
+      "path": "/css/",
+      "headers": [
+        {
+          "level": 3,
+          "title": "c ss",
+          "slug": "c-ss"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/html/Html/1.html",
+      "relativePath": "html/Html/1.md",
+      "key": "v-a25fb702",
+      "path": "/html/Html/1.html"
+    },
+    {
+      "title": "1. html5新增特性？",
+      "frontmatter": {},
+      "regularPath": "/html/Html/2.html",
+      "relativePath": "html/Html/2.md",
+      "key": "v-85c41ac2",
+      "path": "/html/Html/2.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1. html5新增特性？",
+          "slug": "_1-html5新增特性"
+        },
+        {
+          "level": 2,
+          "title": "2.  input type 都有哪些类型",
+          "slug": "_2-input-type-都有哪些类型"
+        },
+        {
+          "level": 2,
+          "title": "2.行内元素有哪些？块级元素有哪些？ 空(void)元素有那些？",
+          "slug": "_2-行内元素有哪些-块级元素有哪些-空-void-元素有那些"
+        },
+        {
+          "level": 2,
+          "title": "3.标签上title属性与alt属性的区别是什么",
+          "slug": "_3-标签上title属性与alt属性的区别是什么"
+        },
+        {
+          "level": 2,
+          "title": "4. 语义化标签",
+          "slug": "_4-语义化标签"
+        },
+        {
+          "level": 2,
+          "title": "5. iframe有哪些优缺点",
+          "slug": "_5-iframe有哪些优缺点"
+        },
+        {
+          "level": 2,
+          "title": "6. src与href有什么区别",
+          "slug": "_6-src与href有什么区别"
+        },
+        {
+          "level": 2,
+          "title": "7. property和attribute的区别是什么",
+          "slug": "_7-property和attribute的区别是什么"
+        },
+        {
+          "level": 2,
+          "title": "8. HTML5的Web storage的存储方式有两种：sessionStorage和localStorage。",
+          "slug": "_8-html5的web-storage的存储方式有两种-sessionstorage和localstorage。"
+        },
+        {
+          "level": 2,
+          "title": "9. 常见的浏览器内核有哪些",
+          "slug": "_9-常见的浏览器内核有哪些"
+        },
+        {
+          "level": 2,
+          "title": "10.  Canvas",
+          "slug": "_10-canvas"
+        },
+        {
+          "level": 2,
+          "title": "11.  页面导入样式时，使用link和@import有什么区别",
+          "slug": "_11-页面导入样式时-使用link和-import有什么区别"
+        }
+      ]
+    },
+    {
+      "title": "text1.md",
+      "frontmatter": {},
+      "regularPath": "/html/Interview/text1.html",
+      "relativePath": "html/Interview/text1.md",
+      "key": "v-481935a1",
+      "path": "/html/Interview/text1.html"
+    },
+    {
+      "title": "思维导图",
+      "frontmatter": {},
+      "regularPath": "/html/",
+      "relativePath": "html/README.md",
+      "key": "v-e3487c42",
+      "path": "/html/",
+      "headers": [
+        {
+          "level": 3,
+          "title": "4",
+          "slug": "_4-2"
+        }
+      ]
+    },
+    {
       "title": "以下内容为 css 基础篇（1）",
       "frontmatter": {},
       "regularPath": "/css/Css/2.html",
@@ -969,127 +1084,12 @@ export const siteData = {
       ]
     },
     {
-      "title": "c ss",
-      "frontmatter": {},
-      "regularPath": "/css/",
-      "relativePath": "css/README.md",
-      "key": "v-62302021",
-      "path": "/css/",
-      "headers": [
-        {
-          "level": 3,
-          "title": "c ss",
-          "slug": "c-ss"
-        }
-      ]
-    },
-    {
-      "title": "text1.md",
-      "frontmatter": {},
-      "regularPath": "/html/Interview/text1.html",
-      "relativePath": "html/Interview/text1.md",
-      "key": "v-481935a1",
-      "path": "/html/Interview/text1.html"
-    },
-    {
-      "title": "1. html5新增特性？",
-      "frontmatter": {},
-      "regularPath": "/html/Html/2.html",
-      "relativePath": "html/Html/2.md",
-      "key": "v-85c41ac2",
-      "path": "/html/Html/2.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "1. html5新增特性？",
-          "slug": "_1-html5新增特性"
-        },
-        {
-          "level": 2,
-          "title": "2.  input type 都有哪些类型",
-          "slug": "_2-input-type-都有哪些类型"
-        },
-        {
-          "level": 2,
-          "title": "2.行内元素有哪些？块级元素有哪些？ 空(void)元素有那些？",
-          "slug": "_2-行内元素有哪些-块级元素有哪些-空-void-元素有那些"
-        },
-        {
-          "level": 2,
-          "title": "3.标签上title属性与alt属性的区别是什么",
-          "slug": "_3-标签上title属性与alt属性的区别是什么"
-        },
-        {
-          "level": 2,
-          "title": "4. 语义化标签",
-          "slug": "_4-语义化标签"
-        },
-        {
-          "level": 2,
-          "title": "5. iframe有哪些优缺点",
-          "slug": "_5-iframe有哪些优缺点"
-        },
-        {
-          "level": 2,
-          "title": "6. src与href有什么区别",
-          "slug": "_6-src与href有什么区别"
-        },
-        {
-          "level": 2,
-          "title": "7. property和attribute的区别是什么",
-          "slug": "_7-property和attribute的区别是什么"
-        },
-        {
-          "level": 2,
-          "title": "8. HTML5的Web storage的存储方式有两种：sessionStorage和localStorage。",
-          "slug": "_8-html5的web-storage的存储方式有两种-sessionstorage和localstorage。"
-        },
-        {
-          "level": 2,
-          "title": "9. 常见的浏览器内核有哪些",
-          "slug": "_9-常见的浏览器内核有哪些"
-        },
-        {
-          "level": 2,
-          "title": "10.  Canvas",
-          "slug": "_10-canvas"
-        },
-        {
-          "level": 2,
-          "title": "11.  页面导入样式时，使用link和@import有什么区别",
-          "slug": "_11-页面导入样式时-使用link和-import有什么区别"
-        }
-      ]
-    },
-    {
       "title": "text2.md",
       "frontmatter": {},
       "regularPath": "/html/Interview/text2.html",
       "relativePath": "html/Interview/text2.md",
       "key": "v-4a7ab9df",
       "path": "/html/Interview/text2.html"
-    },
-    {
-      "title": "思维导图",
-      "frontmatter": {},
-      "regularPath": "/html/",
-      "relativePath": "html/README.md",
-      "key": "v-e3487c42",
-      "path": "/html/",
-      "headers": [
-        {
-          "level": 3,
-          "title": "4",
-          "slug": "_4-2"
-        }
-      ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/html/Html/1.html",
-      "relativePath": "html/Html/1.md",
-      "key": "v-a25fb702",
-      "path": "/html/Html/1.html"
     },
     {
       "title": "ES61",
@@ -1100,19 +1100,62 @@ export const siteData = {
       "path": "/js/ES6/ES61.html"
     },
     {
-      "frontmatter": {},
-      "regularPath": "/css/Css/1.html",
-      "relativePath": "css/Css/1.md",
-      "key": "v-e6578f76",
-      "path": "/css/Css/1.html"
-    },
-    {
       "title": "ES62",
       "frontmatter": {},
       "regularPath": "/js/ES6/ES62.html",
       "relativePath": "js/ES6/ES62.md",
       "key": "v-c251058e",
       "path": "/js/ES6/ES62.html"
+    },
+    {
+      "title": "1. 函数声明",
+      "frontmatter": {},
+      "regularPath": "/js/JS/1.html",
+      "relativePath": "js/JS/1.md",
+      "key": "v-c55abd82",
+      "path": "/js/JS/1.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1. 函数声明",
+          "slug": "_1-函数声明"
+        },
+        {
+          "level": 3,
+          "title": "1-1. 什么是函数声明",
+          "slug": "_1-1-什么是函数声明"
+        },
+        {
+          "level": 3,
+          "title": "1-2. 函数声明三种方式",
+          "slug": "_1-2-函数声明三种方式"
+        },
+        {
+          "level": 2,
+          "title": "2. 变量声明",
+          "slug": "_2-变量声明"
+        },
+        {
+          "level": 3,
+          "title": "2-1. 什么是变量声明",
+          "slug": "_2-1-什么是变量声明"
+        },
+        {
+          "level": 3,
+          "title": "2-2. 变量声明的方式和区别",
+          "slug": "_2-2-变量声明的方式和区别"
+        },
+        {
+          "level": 2,
+          "title": "3.  数据类型",
+          "slug": "_3-数据类型"
+        },
+        {
+          "level": 3,
+          "title": "3-1.数据类型的分类",
+          "slug": "_3-1-数据类型的分类"
+        }
+      ]
     },
     {
       "title": "手写函数(复杂)",
@@ -1463,6 +1506,63 @@ export const siteData = {
       ]
     },
     {
+      "title": "思维导图",
+      "frontmatter": {},
+      "regularPath": "/js/",
+      "relativePath": "js/README.md",
+      "key": "v-467714df",
+      "path": "/js/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/js/ast.html",
+      "relativePath": "js/ast.md",
+      "key": "v-e7cce0c0",
+      "path": "/js/ast.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1. 什么是AST",
+          "slug": "_1-什么是ast"
+        },
+        {
+          "level": 2,
+          "title": "2. 原理",
+          "slug": "_2-原理"
+        },
+        {
+          "level": 2,
+          "title": "3. AST的用途",
+          "slug": "_3-ast的用途"
+        },
+        {
+          "level": 2,
+          "title": "4. AST使用3个流程",
+          "slug": "_4-ast使用3个流程"
+        },
+        {
+          "level": 2,
+          "title": "5. AST的结构",
+          "slug": "_5-ast的结构"
+        },
+        {
+          "level": 2,
+          "title": "6. AST编译过程",
+          "slug": "_6-ast编译过程"
+        },
+        {
+          "level": 2,
+          "title": "7. babel原理浅析",
+          "slug": "_7-babel原理浅析"
+        },
+        {
+          "level": 2,
+          "title": "8. vue中AST抽象语法树的运用;",
+          "slug": "_8-vue中ast抽象语法树的运用"
+        }
+      ]
+    },
+    {
       "frontmatter": {},
       "regularPath": "/js/arry.html",
       "relativePath": "js/arry.md",
@@ -1577,6 +1677,14 @@ export const siteData = {
       ]
     },
     {
+      "title": "手写函数(复杂)",
+      "frontmatter": {},
+      "regularPath": "/js/reg/text2.html",
+      "relativePath": "js/reg/text2.md",
+      "key": "v-23c387bd",
+      "path": "/js/reg/text2.html"
+    },
+    {
       "title": "1. 什么是正则",
       "frontmatter": {},
       "regularPath": "/js/reg/text1.html",
@@ -1652,135 +1760,12 @@ export const siteData = {
       ]
     },
     {
-      "title": "思维导图",
-      "frontmatter": {},
-      "regularPath": "/js/",
-      "relativePath": "js/README.md",
-      "key": "v-467714df",
-      "path": "/js/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/js/ast.html",
-      "relativePath": "js/ast.md",
-      "key": "v-e7cce0c0",
-      "path": "/js/ast.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "1. 什么是AST",
-          "slug": "_1-什么是ast"
-        },
-        {
-          "level": 2,
-          "title": "2. 原理",
-          "slug": "_2-原理"
-        },
-        {
-          "level": 2,
-          "title": "3. AST的用途",
-          "slug": "_3-ast的用途"
-        },
-        {
-          "level": 2,
-          "title": "4. AST使用3个流程",
-          "slug": "_4-ast使用3个流程"
-        },
-        {
-          "level": 2,
-          "title": "5. AST的结构",
-          "slug": "_5-ast的结构"
-        },
-        {
-          "level": 2,
-          "title": "6. AST编译过程",
-          "slug": "_6-ast编译过程"
-        },
-        {
-          "level": 2,
-          "title": "7. babel原理浅析",
-          "slug": "_7-babel原理浅析"
-        },
-        {
-          "level": 2,
-          "title": "8. vue中AST抽象语法树的运用;",
-          "slug": "_8-vue中ast抽象语法树的运用"
-        }
-      ]
-    },
-    {
-      "title": "1. 函数声明",
-      "frontmatter": {},
-      "regularPath": "/js/JS/1.html",
-      "relativePath": "js/JS/1.md",
-      "key": "v-c55abd82",
-      "path": "/js/JS/1.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "1. 函数声明",
-          "slug": "_1-函数声明"
-        },
-        {
-          "level": 3,
-          "title": "1-1. 什么是函数声明",
-          "slug": "_1-1-什么是函数声明"
-        },
-        {
-          "level": 3,
-          "title": "1-2. 函数声明三种方式",
-          "slug": "_1-2-函数声明三种方式"
-        },
-        {
-          "level": 2,
-          "title": "2. 变量声明",
-          "slug": "_2-变量声明"
-        },
-        {
-          "level": 3,
-          "title": "2-1. 什么是变量声明",
-          "slug": "_2-1-什么是变量声明"
-        },
-        {
-          "level": 3,
-          "title": "2-2. 变量声明的方式和区别",
-          "slug": "_2-2-变量声明的方式和区别"
-        },
-        {
-          "level": 2,
-          "title": "3.  数据类型",
-          "slug": "_3-数据类型"
-        },
-        {
-          "level": 3,
-          "title": "3-1.数据类型的分类",
-          "slug": "_3-1-数据类型的分类"
-        }
-      ]
-    },
-    {
-      "title": "手写函数(复杂)",
-      "frontmatter": {},
-      "regularPath": "/js/reg/text2.html",
-      "relativePath": "js/reg/text2.md",
-      "key": "v-23c387bd",
-      "path": "/js/reg/text2.html"
-    },
-    {
       "title": "text2.md",
       "frontmatter": {},
       "regularPath": "/node/Interview/2.html",
       "relativePath": "node/Interview/2.md",
       "key": "v-4dd048d2",
       "path": "/node/Interview/2.html"
-    },
-    {
-      "title": "text1.md",
-      "frontmatter": {},
-      "regularPath": "/node/Interview/1.html",
-      "relativePath": "node/Interview/1.md",
-      "key": "v-54eca04e",
-      "path": "/node/Interview/1.html"
     },
     {
       "title": "思维导图",
@@ -1791,6 +1776,14 @@ export const siteData = {
       "path": "/node/"
     },
     {
+      "title": "text1.md",
+      "frontmatter": {},
+      "regularPath": "/node/Interview/1.html",
+      "relativePath": "node/Interview/1.md",
+      "key": "v-54eca04e",
+      "path": "/node/Interview/1.html"
+    },
+    {
       "title": "jsbase 2",
       "frontmatter": {},
       "regularPath": "/node/base/1.html",
@@ -1799,20 +1792,27 @@ export const siteData = {
       "path": "/node/base/1.html"
     },
     {
-      "title": "2",
-      "frontmatter": {},
-      "regularPath": "/note/",
-      "relativePath": "note/README.md",
-      "key": "v-237d5cbf",
-      "path": "/note/"
-    },
-    {
       "title": "jsbase 1",
       "frontmatter": {},
       "regularPath": "/node/base/2.html",
       "relativePath": "node/base/2.md",
       "key": "v-20d1ee7f",
       "path": "/node/base/2.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/css/Css/1.html",
+      "relativePath": "css/Css/1.md",
+      "key": "v-e6578f76",
+      "path": "/css/Css/1.html"
+    },
+    {
+      "title": "2",
+      "frontmatter": {},
+      "regularPath": "/note/",
+      "relativePath": "note/README.md",
+      "key": "v-237d5cbf",
+      "path": "/note/"
     },
     {
       "title": "使用指南",
@@ -1838,58 +1838,6 @@ export const siteData = {
           "slug": "_3-怎么实现点击放大本地图片"
         }
       ]
-    },
-    {
-      "title": "1. 什么是后台权限",
-      "frontmatter": {},
-      "regularPath": "/note/pit.html",
-      "relativePath": "note/pit.md",
-      "key": "v-711d6edc",
-      "path": "/note/pit.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "1. 什么是后台权限",
-          "slug": "_1-什么是后台权限"
-        },
-        {
-          "level": 2,
-          "title": "2. 权限划分",
-          "slug": "_2-权限划分"
-        },
-        {
-          "level": 3,
-          "title": "2-1. 页面权限",
-          "slug": "_2-1-页面权限"
-        },
-        {
-          "level": 3,
-          "title": "2-2.接口权限",
-          "slug": "_2-2-接口权限"
-        },
-        {
-          "level": 2,
-          "title": "3. 具体实现-路由权限",
-          "slug": "_3-具体实现-路由权限"
-        },
-        {
-          "level": 3,
-          "title": "3-1. beforeEach路由拦截",
-          "slug": "_3-1-beforeeach路由拦截"
-        },
-        {
-          "level": 3,
-          "title": "3-2. addRoutes动态注册路由",
-          "slug": "_3-2-addroutes动态注册路由"
-        }
-      ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/note/react.html",
-      "relativePath": "note/react.md",
-      "key": "v-8f606bd8",
-      "path": "/note/react.html"
     },
     {
       "title": "1. vue",
@@ -1982,6 +1930,78 @@ export const siteData = {
       ]
     },
     {
+      "title": "1. 什么是后台权限",
+      "frontmatter": {},
+      "regularPath": "/note/pit.html",
+      "relativePath": "note/pit.md",
+      "key": "v-711d6edc",
+      "path": "/note/pit.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1. 什么是后台权限",
+          "slug": "_1-什么是后台权限"
+        },
+        {
+          "level": 2,
+          "title": "2. 权限划分",
+          "slug": "_2-权限划分"
+        },
+        {
+          "level": 3,
+          "title": "2-1. 页面权限",
+          "slug": "_2-1-页面权限"
+        },
+        {
+          "level": 3,
+          "title": "2-2.接口权限",
+          "slug": "_2-2-接口权限"
+        },
+        {
+          "level": 2,
+          "title": "3. 具体实现-路由权限",
+          "slug": "_3-具体实现-路由权限"
+        },
+        {
+          "level": 3,
+          "title": "3-1. beforeEach路由拦截",
+          "slug": "_3-1-beforeeach路由拦截"
+        },
+        {
+          "level": 3,
+          "title": "3-2. addRoutes动态注册路由",
+          "slug": "_3-2-addroutes动态注册路由"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/note/react.html",
+      "relativePath": "note/react.md",
+      "key": "v-8f606bd8",
+      "path": "/note/react.html"
+    },
+    {
+      "title": "长期规划",
+      "frontmatter": {},
+      "regularPath": "/plan/planLong/text1.html",
+      "relativePath": "plan/planLong/text1.md",
+      "key": "v-81692842",
+      "path": "/plan/planLong/text1.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1. 前端",
+          "slug": "_1-前端"
+        },
+        {
+          "level": 2,
+          "title": "2. 摄影-PS",
+          "slug": "_2-摄影-ps"
+        }
+      ]
+    },
+    {
       "frontmatter": {},
       "regularPath": "/note/react1.html",
       "relativePath": "note/react1.md",
@@ -2059,32 +2079,62 @@ export const siteData = {
       ]
     },
     {
-      "title": "长期规划",
-      "frontmatter": {},
-      "regularPath": "/plan/planLong/text1.html",
-      "relativePath": "plan/planLong/text1.md",
-      "key": "v-81692842",
-      "path": "/plan/planLong/text1.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "1. 前端",
-          "slug": "_1-前端"
-        },
-        {
-          "level": 2,
-          "title": "2. 摄影-PS",
-          "slug": "_2-摄影-ps"
-        }
-      ]
-    },
-    {
       "title": "思维导图",
       "frontmatter": {},
       "regularPath": "/react/",
       "relativePath": "react/README.md",
       "key": "v-ae03a42e",
       "path": "/react/"
+    },
+    {
+      "title": "一. 更新",
+      "frontmatter": {},
+      "regularPath": "/tools/git/1.html",
+      "relativePath": "tools/git/1.md",
+      "key": "v-e8a03236",
+      "path": "/tools/git/1.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一. 更新",
+          "slug": "一-更新"
+        },
+        {
+          "level": 3,
+          "title": "1. 更新远程分支到本地",
+          "slug": "_1-更新远程分支到本地"
+        },
+        {
+          "level": 3,
+          "title": "2. 将远程某个分支的代码更新到本地",
+          "slug": "_2-将远程某个分支的代码更新到本地"
+        },
+        {
+          "level": 3,
+          "title": "3. 将本地一个分支的代码更新到另外一个分支上",
+          "slug": "_3-将本地一个分支的代码更新到另外一个分支上"
+        },
+        {
+          "level": 2,
+          "title": "二.查看",
+          "slug": "二-查看"
+        },
+        {
+          "level": 3,
+          "title": "1.查看本地分支",
+          "slug": "_1-查看本地分支"
+        },
+        {
+          "level": 3,
+          "title": "2.查看所有分支",
+          "slug": "_2-查看所有分支"
+        },
+        {
+          "level": 3,
+          "title": "3. 给分支添加描述",
+          "slug": "_3-给分支添加描述"
+        }
+      ]
     },
     {
       "title": "思维导图 业务",
@@ -2312,52 +2362,170 @@ export const siteData = {
       ]
     },
     {
-      "title": "一. 更新",
       "frontmatter": {},
-      "regularPath": "/tools/git/1.html",
-      "relativePath": "tools/git/1.md",
-      "key": "v-e8a03236",
-      "path": "/tools/git/1.html",
+      "regularPath": "/tools/vscode/1.html",
+      "relativePath": "tools/vscode/1.md",
+      "key": "v-2e76f30b",
+      "path": "/tools/vscode/1.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "vue怎么 实现调用浏览器打印的功能",
+          "slug": "vue怎么-实现调用浏览器打印的功能"
+        },
+        {
+          "level": 2,
+          "title": "1. 怎么使用鼠标控制字体大小",
+          "slug": "_1-怎么使用鼠标控制字体大小"
+        },
+        {
+          "level": 2,
+          "title": "2.怎么查看每一行的代码提交记录",
+          "slug": "_2-怎么查看每一行的代码提交记录"
+        }
+      ]
+    },
+    {
+      "title": "以下内容为HTML 基础篇（1）",
+      "frontmatter": {},
+      "regularPath": "/tools/vscode/2.html",
+      "relativePath": "tools/vscode/2.md",
+      "key": "v-2c2d5a89",
+      "path": "/tools/vscode/2.html",
       "headers": [
         {
           "level": 2,
-          "title": "一. 更新",
-          "slug": "一-更新"
-        },
-        {
-          "level": 3,
-          "title": "1. 更新远程分支到本地",
-          "slug": "_1-更新远程分支到本地"
-        },
-        {
-          "level": 3,
-          "title": "2. 将远程某个分支的代码更新到本地",
-          "slug": "_2-将远程某个分支的代码更新到本地"
-        },
-        {
-          "level": 3,
-          "title": "3. 将本地一个分支的代码更新到另外一个分支上",
-          "slug": "_3-将本地一个分支的代码更新到另外一个分支上"
+          "title": "1. html5新增特性？",
+          "slug": "_1-html5新增特性"
         },
         {
           "level": 2,
-          "title": "二.查看",
-          "slug": "二-查看"
+          "title": "2.行内元素有哪些？块级元素有哪些？ 空(void)元素有那些？",
+          "slug": "_2-行内元素有哪些-块级元素有哪些-空-void-元素有那些"
+        },
+        {
+          "level": 2,
+          "title": "3.标签上title属性与alt属性的区别是什么",
+          "slug": "_3-标签上title属性与alt属性的区别是什么"
+        },
+        {
+          "level": 2,
+          "title": "4. 语义化标签",
+          "slug": "_4-语义化标签"
+        },
+        {
+          "level": 2,
+          "title": "5. iframe有哪些优缺点",
+          "slug": "_5-iframe有哪些优缺点"
+        },
+        {
+          "level": 2,
+          "title": "6. src与href有什么区别",
+          "slug": "_6-src与href有什么区别"
+        },
+        {
+          "level": 2,
+          "title": "7. property和attribute的区别是什么",
+          "slug": "_7-property和attribute的区别是什么"
+        },
+        {
+          "level": 2,
+          "title": "8. HTML5的Web storage的存储方式有两种：sessionStorage和localStorage。",
+          "slug": "_8-html5的web-storage的存储方式有两种-sessionstorage和localstorage。"
+        },
+        {
+          "level": 2,
+          "title": "9. 常见的浏览器内核有哪些",
+          "slug": "_9-常见的浏览器内核有哪些"
+        },
+        {
+          "level": 2,
+          "title": "10.  Canvas",
+          "slug": "_10-canvas"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/tools/webpack/1.html",
+      "relativePath": "tools/webpack/1.md",
+      "key": "v-e85a5d76",
+      "path": "/tools/webpack/1.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1 缩小文件的搜索范围",
+          "slug": "_1-缩小文件的搜索范围"
         },
         {
           "level": 3,
-          "title": "1.查看本地分支",
-          "slug": "_1-查看本地分支"
+          "title": "1-1优化Loader配置",
+          "slug": "_1-1优化loader配置"
         },
         {
           "level": 3,
-          "title": "2.查看所有分支",
-          "slug": "_2-查看所有分支"
+          "title": "1-2.优化Loader配置优化resolve.modules配置（resolve项）",
+          "slug": "_1-2-优化loader配置优化resolve-modules配置-resolve项"
         },
         {
           "level": 3,
-          "title": "3. 给分支添加描述",
-          "slug": "_3-给分支添加描述"
+          "title": "1-3.优化resolve.alias配置（resolve项）",
+          "slug": "_1-3-优化resolve-alias配置-resolve项"
+        },
+        {
+          "level": 3,
+          "title": "1-4. 优化resolve.extensions配置",
+          "slug": "_1-4-优化resolve-extensions配置"
+        },
+        {
+          "level": 2,
+          "title": "2. 减少冗余代码",
+          "slug": "_2-减少冗余代码"
+        },
+        {
+          "level": 2,
+          "title": "3. 使用HappyPack多进程解析和处理文件",
+          "slug": "_3-使用happypack多进程解析和处理文件"
+        },
+        {
+          "level": 2,
+          "title": "4. 使用ParallelUglifyPlugin多进程压缩代码文件",
+          "slug": "_4-使用paralleluglifyplugin多进程压缩代码文件"
+        },
+        {
+          "level": 2,
+          "title": "5. 使用自动刷新",
+          "slug": "_5-使用自动刷新"
+        },
+        {
+          "level": 2,
+          "title": "6. 开启模块热替换",
+          "slug": "_6-开启模块热替换"
+        },
+        {
+          "level": 2,
+          "title": "7. 提取公共代码",
+          "slug": "_7-提取公共代码"
+        },
+        {
+          "level": 3,
+          "title": "8. 通过webpack-bundle-analyzer分析代码包的大小",
+          "slug": "_8-通过webpack-bundle-analyzer分析代码包的大小"
+        },
+        {
+          "level": 2,
+          "title": "9. DLL  Plugin",
+          "slug": "_9-dll-plugin"
+        },
+        {
+          "level": 2,
+          "title": "10. Ignore   Plugin",
+          "slug": "_10-ignore-plugin"
+        },
+        {
+          "level": 2,
+          "title": "11. JS优化",
+          "slug": "_11-js优化"
         }
       ]
     },
@@ -2842,193 +3010,6 @@ export const siteData = {
       ]
     },
     {
-      "frontmatter": {},
-      "regularPath": "/tools/vscode/1.html",
-      "relativePath": "tools/vscode/1.md",
-      "key": "v-2e76f30b",
-      "path": "/tools/vscode/1.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "vue怎么 实现调用浏览器打印的功能",
-          "slug": "vue怎么-实现调用浏览器打印的功能"
-        },
-        {
-          "level": 2,
-          "title": "1. 怎么使用鼠标控制字体大小",
-          "slug": "_1-怎么使用鼠标控制字体大小"
-        },
-        {
-          "level": 2,
-          "title": "2.怎么查看每一行的代码提交记录",
-          "slug": "_2-怎么查看每一行的代码提交记录"
-        }
-      ]
-    },
-    {
-      "title": "以下内容为HTML 基础篇（1）",
-      "frontmatter": {},
-      "regularPath": "/tools/vscode/2.html",
-      "relativePath": "tools/vscode/2.md",
-      "key": "v-2c2d5a89",
-      "path": "/tools/vscode/2.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "1. html5新增特性？",
-          "slug": "_1-html5新增特性"
-        },
-        {
-          "level": 2,
-          "title": "2.行内元素有哪些？块级元素有哪些？ 空(void)元素有那些？",
-          "slug": "_2-行内元素有哪些-块级元素有哪些-空-void-元素有那些"
-        },
-        {
-          "level": 2,
-          "title": "3.标签上title属性与alt属性的区别是什么",
-          "slug": "_3-标签上title属性与alt属性的区别是什么"
-        },
-        {
-          "level": 2,
-          "title": "4. 语义化标签",
-          "slug": "_4-语义化标签"
-        },
-        {
-          "level": 2,
-          "title": "5. iframe有哪些优缺点",
-          "slug": "_5-iframe有哪些优缺点"
-        },
-        {
-          "level": 2,
-          "title": "6. src与href有什么区别",
-          "slug": "_6-src与href有什么区别"
-        },
-        {
-          "level": 2,
-          "title": "7. property和attribute的区别是什么",
-          "slug": "_7-property和attribute的区别是什么"
-        },
-        {
-          "level": 2,
-          "title": "8. HTML5的Web storage的存储方式有两种：sessionStorage和localStorage。",
-          "slug": "_8-html5的web-storage的存储方式有两种-sessionstorage和localstorage。"
-        },
-        {
-          "level": 2,
-          "title": "9. 常见的浏览器内核有哪些",
-          "slug": "_9-常见的浏览器内核有哪些"
-        },
-        {
-          "level": 2,
-          "title": "10.  Canvas",
-          "slug": "_10-canvas"
-        }
-      ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/tools/webpack/2.html",
-      "relativePath": "tools/webpack/2.md",
-      "key": "v-11b7f6e5",
-      "path": "/tools/webpack/2.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "1. 概念",
-          "slug": "_1-概念"
-        },
-        {
-          "level": 2,
-          "title": "2. 打包图片",
-          "slug": "_2-打包图片"
-        }
-      ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/tools/webpack/1.html",
-      "relativePath": "tools/webpack/1.md",
-      "key": "v-e85a5d76",
-      "path": "/tools/webpack/1.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "1 缩小文件的搜索范围",
-          "slug": "_1-缩小文件的搜索范围"
-        },
-        {
-          "level": 3,
-          "title": "1-1优化Loader配置",
-          "slug": "_1-1优化loader配置"
-        },
-        {
-          "level": 3,
-          "title": "1-2.优化Loader配置优化resolve.modules配置（resolve项）",
-          "slug": "_1-2-优化loader配置优化resolve-modules配置-resolve项"
-        },
-        {
-          "level": 3,
-          "title": "1-3.优化resolve.alias配置（resolve项）",
-          "slug": "_1-3-优化resolve-alias配置-resolve项"
-        },
-        {
-          "level": 3,
-          "title": "1-4. 优化resolve.extensions配置",
-          "slug": "_1-4-优化resolve-extensions配置"
-        },
-        {
-          "level": 2,
-          "title": "2. 减少冗余代码",
-          "slug": "_2-减少冗余代码"
-        },
-        {
-          "level": 2,
-          "title": "3. 使用HappyPack多进程解析和处理文件",
-          "slug": "_3-使用happypack多进程解析和处理文件"
-        },
-        {
-          "level": 2,
-          "title": "4. 使用ParallelUglifyPlugin多进程压缩代码文件",
-          "slug": "_4-使用paralleluglifyplugin多进程压缩代码文件"
-        },
-        {
-          "level": 2,
-          "title": "5. 使用自动刷新",
-          "slug": "_5-使用自动刷新"
-        },
-        {
-          "level": 2,
-          "title": "6. 开启模块热替换",
-          "slug": "_6-开启模块热替换"
-        },
-        {
-          "level": 2,
-          "title": "7. 提取公共代码",
-          "slug": "_7-提取公共代码"
-        },
-        {
-          "level": 3,
-          "title": "8. 通过webpack-bundle-analyzer分析代码包的大小",
-          "slug": "_8-通过webpack-bundle-analyzer分析代码包的大小"
-        },
-        {
-          "level": 2,
-          "title": "9. DLL  Plugin",
-          "slug": "_9-dll-plugin"
-        },
-        {
-          "level": 2,
-          "title": "10. Ignore   Plugin",
-          "slug": "_10-ignore-plugin"
-        },
-        {
-          "level": 2,
-          "title": "11. JS优化",
-          "slug": "_11-js优化"
-        }
-      ]
-    },
-    {
       "title": "1. 简单介绍",
       "frontmatter": {},
       "regularPath": "/tools/webpack/3.html",
@@ -3054,6 +3035,25 @@ export const siteData = {
       "relativePath": "tools/webpack/4.md",
       "key": "v-1d824225",
       "path": "/tools/webpack/4.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/tools/webpack/2.html",
+      "relativePath": "tools/webpack/2.md",
+      "key": "v-11b7f6e5",
+      "path": "/tools/webpack/2.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1. 概念",
+          "slug": "_1-概念"
+        },
+        {
+          "level": 2,
+          "title": "2. 打包图片",
+          "slug": "_2-打包图片"
+        }
+      ]
     },
     {
       "title": "text1.md",
@@ -3094,12 +3094,12 @@ export const siteData = {
       "path": "/ts/"
     },
     {
-      "title": "jsbase 2",
+      "title": "ES61",
       "frontmatter": {},
-      "regularPath": "/ts/base/1.html",
-      "relativePath": "ts/base/1.md",
-      "key": "v-167fa802",
-      "path": "/ts/base/1.html"
+      "regularPath": "/vue/ES6/1.html",
+      "relativePath": "vue/ES6/1.md",
+      "key": "v-2e428f45",
+      "path": "/vue/ES6/1.html"
     },
     {
       "title": "jsbase 1",
@@ -3110,12 +3110,12 @@ export const siteData = {
       "path": "/ts/base/2.html"
     },
     {
-      "title": "ES61",
+      "title": "jsbase 2",
       "frontmatter": {},
-      "regularPath": "/vue/ES6/1.html",
-      "relativePath": "vue/ES6/1.md",
-      "key": "v-2e428f45",
-      "path": "/vue/ES6/1.html"
+      "regularPath": "/ts/base/1.html",
+      "relativePath": "ts/base/1.md",
+      "key": "v-167fa802",
+      "path": "/ts/base/1.html"
     },
     {
       "title": "ES62",
@@ -3197,275 +3197,10 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/vue/SourceCode/1.html",
-      "relativePath": "vue/SourceCode/1.md",
-      "key": "v-015ab2b6",
-      "path": "/vue/SourceCode/1.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一. 代码",
-          "slug": "一-代码"
-        },
-        {
-          "level": 2,
-          "title": "二.执行步骤",
-          "slug": "二-执行步骤"
-        },
-        {
-          "level": 3,
-          "title": "1. initMixin，初始化vue，挂载_init方法",
-          "slug": "_1-initmixin-初始化vue-挂载-init方法"
-        },
-        {
-          "level": 3,
-          "title": "2. stateMixin，数据绑定，$watch方法",
-          "slug": "_2-statemixin-数据绑定-watch方法"
-        },
-        {
-          "level": 3,
-          "title": "3 eventsMixin，初始化事件绑定方法",
-          "slug": "_3-eventsmixin-初始化事件绑定方法"
-        },
-        {
-          "level": 3,
-          "title": "4 lifecycleMixin，初始化  更新 销毁 函数",
-          "slug": "_4-lifecyclemixin-初始化-更新-销毁-函数"
-        },
-        {
-          "level": 3,
-          "title": "5 renderMixin，初始化vue 需要渲染的函数",
-          "slug": "_5-rendermixin-初始化vue-需要渲染的函数"
-        },
-        {
-          "level": 3,
-          "title": "6 声明一些变量",
-          "slug": "_6-声明一些变量"
-        },
-        {
-          "level": 3,
-          "title": "7 initGlobalAPI(Vue), 初始化全局api 并且暴露 一些静态方法",
-          "slug": "_7-initglobalapi-vue-初始化全局api-并且暴露-一些静态方法"
-        },
-        {
-          "level": 3,
-          "title": "8. Object.defineProperty响应式一些属性",
-          "slug": "_8-object-defineproperty响应式一些属性"
-        },
-        {
-          "level": 3,
-          "title": "9. 设置版本号",
-          "slug": "_9-设置版本号"
-        },
-        {
-          "level": 3,
-          "title": "10. 定义判断属性相关函数",
-          "slug": "_10-定义判断属性相关函数"
-        },
-        {
-          "level": 3,
-          "title": "11. nodeOps冻结节点",
-          "slug": "_11-nodeops冻结节点"
-        },
-        {
-          "level": 3,
-          "title": "12. 定义ref 创建 更新 和 销毁 事件",
-          "slug": "_12-定义ref-创建-更新-和-销毁-事件"
-        },
-        {
-          "level": 3,
-          "title": "13. 定义空vnode(emptyNode)和hooks",
-          "slug": "_13-定义空vnode-emptynode-和hooks"
-        },
-        {
-          "level": 3,
-          "title": "14. 定义指令",
-          "slug": "_14-定义指令"
-        },
-        {
-          "level": 3,
-          "title": "15. 定义一些指令，属性的全局对象",
-          "slug": "_15-定义一些指令-属性的全局对象"
-        },
-        {
-          "level": 3,
-          "title": "16. 定义更新dom事件",
-          "slug": "_16-定义更新dom事件"
-        },
-        {
-          "level": 3,
-          "title": "17. updateDOMProps更新真实dom的props属性",
-          "slug": "_17-updatedomprops更新真实dom的props属性"
-        },
-        {
-          "level": 3,
-          "title": "18. style 字符串 格式化为对象",
-          "slug": "_18-style-字符串-格式化为对象"
-        },
-        {
-          "level": 3,
-          "title": "19. 设置属性和样式",
-          "slug": "_19-设置属性和样式"
-        },
-        {
-          "level": 3,
-          "title": "19. 更新样式",
-          "slug": "_19-更新样式"
-        },
-        {
-          "level": 3,
-          "title": "20. 封装工具模板",
-          "slug": "_20-封装工具模板"
-        },
-        {
-          "level": 3,
-          "title": "21 .定义插入更新指令函数",
-          "slug": "_21-定义插入更新指令函数"
-        },
-        {
-          "level": 3,
-          "title": "22. 定义更新绑定指令函数",
-          "slug": "_22-定义更新绑定指令函数"
-        },
-        {
-          "level": 3,
-          "title": "23 . 封装指令",
-          "slug": "_23-封装指令"
-        },
-        {
-          "level": 3,
-          "title": "24. 检验属性",
-          "slug": "_24-检验属性"
-        },
-        {
-          "level": 3,
-          "title": "25. 挂载$mount",
-          "slug": "_25-挂载-mount"
-        },
-        {
-          "level": 3,
-          "title": "26 .vue 开发工具配置",
-          "slug": "_26-vue-开发工具配置"
-        }
-      ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/vue/SourceCode/3.html",
-      "relativePath": "vue/SourceCode/3.md",
-      "key": "v-066efe21",
-      "path": "/vue/SourceCode/3.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "new Vue的过程（vue源码分析3）",
-          "slug": "new-vue的过程-vue源码分析3"
-        },
-        {
-          "level": 2,
-          "title": "theme: juejin\nhighlight: arduino-light",
-          "slug": "theme-juejinhighlight-arduino-light"
-        },
-        {
-          "level": 2,
-          "title": "1. 在html的js中执行new Vue",
-          "slug": "_1-在html的js中执行new-vue"
-        },
-        {
-          "level": 2,
-          "title": "2. 执行this._init",
-          "slug": "_2-执行this-init"
-        },
-        {
-          "level": 2,
-          "title": "!image.png",
-          "slug": "image-png-https-p9-juejin-byteimg-com-tos-cn-i-k3u1fbpfcp-81ef6b43007a419fac3db653964b4e7d-tplv-k3u1fbpfcp-watermark-image"
-        },
-        {
-          "level": 2,
-          "title": "3. $mount",
-          "slug": "_3-mount"
-        },
-        {
-          "level": 3,
-          "title": "3-1 .编译过程",
-          "slug": "_3-1-编译过程"
-        },
-        {
-          "level": 3,
-          "title": "3-2 后续",
-          "slug": "_3-2-后续"
-        },
-        {
-          "level": 3,
-          "title": "3-3 第二次执行mount",
-          "slug": "_3-3-第二次执行mount"
-        },
-        {
-          "level": 2,
-          "title": "5. optimize",
-          "slug": "_5-optimize"
-        },
-        {
-          "level": 2,
-          "title": "6. generate",
-          "slug": "_6-generate"
-        }
-      ]
-    },
-    {
-      "frontmatter": {},
       "regularPath": "/vue/SourceCode/4.html",
       "relativePath": "vue/SourceCode/4.md",
       "key": "v-09fd29df",
-      "path": "/vue/SourceCode/4.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "parse函数（vue源码分析4）",
-          "slug": "parse函数-vue源码分析4"
-        },
-        {
-          "level": 2,
-          "title": "theme: juejin\nhighlight: arduino-light",
-          "slug": "theme-juejinhighlight-arduino-light"
-        },
-        {
-          "level": 2,
-          "title": "1. 执行流程",
-          "slug": "_1-执行流程"
-        },
-        {
-          "level": 2,
-          "title": "2. ast",
-          "slug": "_2-ast"
-        },
-        {
-          "level": 2,
-          "title": "3. 简析parse",
-          "slug": "_3-简析parse"
-        },
-        {
-          "level": 2,
-          "title": "4. 详解parse",
-          "slug": "_4-详解parse"
-        },
-        {
-          "level": 2,
-          "title": "5.parseHTML",
-          "slug": "_5-parsehtml"
-        },
-        {
-          "level": 3,
-          "title": "5-1. 简析",
-          "slug": "_5-1-简析"
-        },
-        {
-          "level": 3,
-          "title": "5-2. start",
-          "slug": "_5-2-start"
-        }
-      ]
+      "path": "/vue/SourceCode/4.html"
     },
     {
       "frontmatter": {
@@ -3516,291 +3251,6 @@ export const siteData = {
           "level": 3,
           "title": "4-1 Dep",
           "slug": "_4-1-dep"
-        }
-      ]
-    },
-    {
-      "title": "1. 背景",
-      "frontmatter": {},
-      "regularPath": "/vue/vue3/1.html",
-      "relativePath": "vue/vue3/1.md",
-      "key": "v-464f3bdb",
-      "path": "/vue/vue3/1.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "1. 背景",
-          "slug": "_1-背景"
-        },
-        {
-          "level": 2,
-          "title": "2.生命周期的变化",
-          "slug": "_2-生命周期的变化"
-        },
-        {
-          "level": 2,
-          "title": "3.使用proxy代替defineProperty",
-          "slug": "_3-使用proxy代替defineproperty"
-        },
-        {
-          "level": 3,
-          "title": "Object.defineProperty()语法",
-          "slug": "object-defineproperty-语法"
-        },
-        {
-          "level": 3,
-          "title": "Proxy的语法",
-          "slug": "proxy的语法"
-        },
-        {
-          "level": 2,
-          "title": "4.Diff算法的提升",
-          "slug": "_4-diff算法的提升"
-        },
-        {
-          "level": 3,
-          "title": "以往的渲染策略",
-          "slug": "以往的渲染策略"
-        },
-        {
-          "level": 3,
-          "title": "潜在的问题",
-          "slug": "潜在的问题"
-        },
-        {
-          "level": 3,
-          "title": "Vue3的突破",
-          "slug": "vue3的突破"
-        },
-        {
-          "level": 2,
-          "title": "5.typeScript的支持",
-          "slug": "_5-typescript的支持"
-        },
-        {
-          "level": 3,
-          "title": "vue2 存在的问题",
-          "slug": "vue2-存在的问题"
-        },
-        {
-          "level": 3,
-          "title": "如何实现",
-          "slug": "如何实现"
-        },
-        {
-          "level": 2,
-          "title": "6.打包体积变化",
-          "slug": "_6-打包体积变化"
-        },
-        {
-          "level": 3,
-          "title": "以前打包存在的问题",
-          "slug": "以前打包存在的问题"
-        },
-        {
-          "level": 3,
-          "title": "vue3是怎么做的",
-          "slug": "vue3是怎么做的"
-        },
-        {
-          "level": 2,
-          "title": "6. 开始使用vue3.0",
-          "slug": "_6-开始使用vue3-0"
-        },
-        {
-          "level": 3,
-          "title": "安装依赖，创建项目",
-          "slug": "安装依赖-创建项目"
-        },
-        {
-          "level": 2,
-          "title": "7. 代码解释",
-          "slug": "_7-代码解释"
-        },
-        {
-          "level": 3,
-          "title": "将vue3的HelloWorld.vue文件做些改动",
-          "slug": "将vue3的helloworld-vue文件做些改动"
-        },
-        {
-          "level": 3,
-          "title": "生命周期的使用",
-          "slug": "生命周期的使用"
-        },
-        {
-          "level": 2,
-          "title": "8. 组件Api的使用",
-          "slug": "_8-组件api的使用"
-        },
-        {
-          "level": 3,
-          "title": "setup",
-          "slug": "setup"
-        }
-      ]
-    },
-    {
-      "title": "1. 什么是mvvm",
-      "frontmatter": {},
-      "regularPath": "/vue/vue/2.html",
-      "relativePath": "vue/vue/2.md",
-      "key": "v-3716c636",
-      "path": "/vue/vue/2.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "1. 什么是mvvm",
-          "slug": "_1-什么是mvvm"
-        },
-        {
-          "level": 2,
-          "title": "2. 什么是 SPA 单页面，它的优缺点分别是什么",
-          "slug": "_2-什么是-spa-单页面-它的优缺点分别是什么"
-        },
-        {
-          "level": 2,
-          "title": "3. 生命周期",
-          "slug": "_3-生命周期"
-        },
-        {
-          "level": 3,
-          "title": "3-1 基本概念",
-          "slug": "_3-1-基本概念"
-        },
-        {
-          "level": 3,
-          "title": "3-2 生命周期调用顺序",
-          "slug": "_3-2-生命周期调用顺序"
-        },
-        {
-          "level": 3,
-          "title": "3-3 vue生命周期的作用是什么",
-          "slug": "_3-3-vue生命周期的作用是什么"
-        },
-        {
-          "level": 3,
-          "title": "3-4 第一次页面加载会触发哪几个钩子",
-          "slug": "_3-4-第一次页面加载会触发哪几个钩子"
-        },
-        {
-          "level": 3,
-          "title": "3-5 每个周期具体适合哪些场景",
-          "slug": "_3-5-每个周期具体适合哪些场景"
-        },
-        {
-          "level": 2,
-          "title": "4.v-show 与 v-if 的区别",
-          "slug": "_4-v-show-与-v-if-的区别"
-        },
-        {
-          "level": 2,
-          "title": "5. Vue 的单向数据流",
-          "slug": "_5-vue-的单向数据流"
-        },
-        {
-          "level": 2,
-          "title": "6.异步请求适合在哪个生命周期调用？",
-          "slug": "_6-异步请求适合在哪个生命周期调用"
-        },
-        {
-          "level": 2,
-          "title": "7.Vue2.x组件通信有哪些方式？",
-          "slug": "_7-vue2-x组件通信有哪些方式"
-        },
-        {
-          "level": 3,
-          "title": "7-1 父子组件通信",
-          "slug": "_7-1-父子组件通信"
-        },
-        {
-          "level": 3,
-          "title": "7-2 兄弟组件通信",
-          "slug": "_7-2-兄弟组件通信"
-        },
-        {
-          "level": 3,
-          "title": "7-3 跨级组件通信",
-          "slug": "_7-3-跨级组件通信"
-        },
-        {
-          "level": 3,
-          "title": "7-4 使用",
-          "slug": "_7-4-使用"
-        },
-        {
-          "level": 2,
-          "title": "8. 什么是SSR",
-          "slug": "_8-什么是ssr"
-        },
-        {
-          "level": 2,
-          "title": "9.Vue路由",
-          "slug": "_9-vue路由"
-        },
-        {
-          "level": 3,
-          "title": "9-1 vue-router 路由模式有几种？",
-          "slug": "_9-1-vue-router-路由模式有几种"
-        },
-        {
-          "level": 3,
-          "title": "9-2 hash路由和history路由实现原理",
-          "slug": "_9-2-hash路由和history路由实现原理"
-        },
-        {
-          "level": 2,
-          "title": "10.Vue 中的 key 有什么作用？",
-          "slug": "_10-vue-中的-key-有什么作用"
-        },
-        {
-          "level": 2,
-          "title": "11.虚拟 DOM 实现原理",
-          "slug": "_11-虚拟-dom-实现原理"
-        },
-        {
-          "level": 2,
-          "title": "13.虚拟 DOM 的优缺点",
-          "slug": "_13-虚拟-dom-的优缺点"
-        },
-        {
-          "level": 2,
-          "title": "14.Proxy 与 Object.defineProperty 优劣对比",
-          "slug": "_14-proxy-与-object-defineproperty-优劣对比"
-        },
-        {
-          "level": 2,
-          "title": "15.Vue 框架怎么实现对象和数组的监听？",
-          "slug": "_15-vue-框架怎么实现对象和数组的监听"
-        },
-        {
-          "level": 2,
-          "title": "16.Vue 是如何实现数据双向绑定的",
-          "slug": "_16-vue-是如何实现数据双向绑定的"
-        },
-        {
-          "level": 2,
-          "title": "17.v-model 的原理",
-          "slug": "_17-v-model-的原理"
-        },
-        {
-          "level": 2,
-          "title": "18.组件中 data 为什么是一个函数？",
-          "slug": "_18-组件中-data-为什么是一个函数"
-        },
-        {
-          "level": 2,
-          "title": "19.谈谈你对 keep-alive",
-          "slug": "_19-谈谈你对-keep-alive"
-        },
-        {
-          "level": 2,
-          "title": "20.父组件可以监听到子组件的生命周期吗？",
-          "slug": "_20-父组件可以监听到子组件的生命周期吗"
-        },
-        {
-          "level": 2,
-          "title": "21.直接给一个数组项赋值，Vue 能检测到变化吗？",
-          "slug": "_21-直接给一个数组项赋值-vue-能检测到变化吗"
         }
       ]
     },
@@ -4285,92 +3735,385 @@ export const siteData = {
       ]
     },
     {
-      "title": "1. 直接修改与commit提交mutation修改state的差异",
       "frontmatter": {},
-      "regularPath": "/vue/vuex/2.html",
-      "relativePath": "vue/vuex/2.md",
-      "key": "v-71624fcf",
-      "path": "/vue/vuex/2.html",
+      "regularPath": "/vue/SourceCode/3.html",
+      "relativePath": "vue/SourceCode/3.md",
+      "key": "v-066efe21",
+      "path": "/vue/SourceCode/3.html",
       "headers": [
         {
           "level": 2,
-          "title": "1. 直接修改与commit提交mutation修改state的差异",
-          "slug": "_1-直接修改与commit提交mutation修改state的差异"
+          "title": "new Vue的过程（vue源码分析3）",
+          "slug": "new-vue的过程-vue源码分析3"
         },
         {
           "level": 2,
-          "title": "2. Vuex中状态是对象时要注意什么",
-          "slug": "_2-vuex中状态是对象时要注意什么"
+          "title": "theme: juejin\nhighlight: arduino-light",
+          "slug": "theme-juejinhighlight-arduino-light"
         },
         {
           "level": 2,
-          "title": "3. 组件中批量使用Vuex的state状态",
-          "slug": "_3-组件中批量使用vuex的state状态"
+          "title": "1. 在html的js中执行new Vue",
+          "slug": "_1-在html的js中执行new-vue"
         },
         {
           "level": 2,
-          "title": "4. 怎么从state派生一些状态出来让多个组件使用它",
-          "slug": "_4-怎么从state派生一些状态出来让多个组件使用它"
+          "title": "2. 执行this._init",
+          "slug": "_2-执行this-init"
         },
         {
           "level": 2,
-          "title": "5. 用getter来过滤state",
-          "slug": "_5-用getter来过滤state"
+          "title": "!image.png",
+          "slug": "image-png-https-p9-juejin-byteimg-com-tos-cn-i-k3u1fbpfcp-81ef6b43007a419fac3db653964b4e7d-tplv-k3u1fbpfcp-watermark-image"
         },
         {
           "level": 2,
-          "title": "6.组件中批量给getter属性取别名",
-          "slug": "_6-组件中批量给getter属性取别名"
+          "title": "3. $mount",
+          "slug": "_3-mount"
+        },
+        {
+          "level": 3,
+          "title": "3-1 .编译过程",
+          "slug": "_3-1-编译过程"
+        },
+        {
+          "level": 3,
+          "title": "3-2 后续",
+          "slug": "_3-2-后续"
+        },
+        {
+          "level": 3,
+          "title": "3-3 第二次执行mount",
+          "slug": "_3-3-第二次执行mount"
         },
         {
           "level": 2,
-          "title": "7. 怎么改变state的状态。",
-          "slug": "_7-怎么改变state的状态。"
+          "title": "5. optimize",
+          "slug": "_5-optimize"
         },
         {
           "level": 2,
-          "title": "8. action和mutation的区别",
-          "slug": "_8-action和mutation的区别"
+          "title": "6. generate",
+          "slug": "_6-generate"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/vue/SourceCode/1.html",
+      "relativePath": "vue/SourceCode/1.md",
+      "key": "v-015ab2b6",
+      "path": "/vue/SourceCode/1.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一. 代码",
+          "slug": "一-代码"
         },
         {
           "level": 2,
-          "title": "9. 如何知道异步的action何时结束",
-          "slug": "_9-如何知道异步的action何时结束"
+          "title": "二.执行步骤",
+          "slug": "二-执行步骤"
+        },
+        {
+          "level": 3,
+          "title": "1. initMixin，初始化vue，挂载_init方法",
+          "slug": "_1-initmixin-初始化vue-挂载-init方法"
+        },
+        {
+          "level": 3,
+          "title": "2. stateMixin，数据绑定，$watch方法",
+          "slug": "_2-statemixin-数据绑定-watch方法"
+        },
+        {
+          "level": 3,
+          "title": "3 eventsMixin，初始化事件绑定方法",
+          "slug": "_3-eventsmixin-初始化事件绑定方法"
+        },
+        {
+          "level": 3,
+          "title": "4 lifecycleMixin，初始化  更新 销毁 函数",
+          "slug": "_4-lifecyclemixin-初始化-更新-销毁-函数"
+        },
+        {
+          "level": 3,
+          "title": "5 renderMixin，初始化vue 需要渲染的函数",
+          "slug": "_5-rendermixin-初始化vue-需要渲染的函数"
+        },
+        {
+          "level": 3,
+          "title": "6 声明一些变量",
+          "slug": "_6-声明一些变量"
+        },
+        {
+          "level": 3,
+          "title": "7 initGlobalAPI(Vue), 初始化全局api 并且暴露 一些静态方法",
+          "slug": "_7-initglobalapi-vue-初始化全局api-并且暴露-一些静态方法"
+        },
+        {
+          "level": 3,
+          "title": "8. Object.defineProperty响应式一些属性",
+          "slug": "_8-object-defineproperty响应式一些属性"
+        },
+        {
+          "level": 3,
+          "title": "9. 设置版本号",
+          "slug": "_9-设置版本号"
+        },
+        {
+          "level": 3,
+          "title": "10. 定义判断属性相关函数",
+          "slug": "_10-定义判断属性相关函数"
+        },
+        {
+          "level": 3,
+          "title": "11. nodeOps冻结节点",
+          "slug": "_11-nodeops冻结节点"
+        },
+        {
+          "level": 3,
+          "title": "12. 定义ref 创建 更新 和 销毁 事件",
+          "slug": "_12-定义ref-创建-更新-和-销毁-事件"
+        },
+        {
+          "level": 3,
+          "title": "13. 定义空vnode(emptyNode)和hooks",
+          "slug": "_13-定义空vnode-emptynode-和hooks"
+        },
+        {
+          "level": 3,
+          "title": "14. 定义指令",
+          "slug": "_14-定义指令"
+        },
+        {
+          "level": 3,
+          "title": "15. 定义一些指令，属性的全局对象",
+          "slug": "_15-定义一些指令-属性的全局对象"
+        },
+        {
+          "level": 3,
+          "title": "16. 定义更新dom事件",
+          "slug": "_16-定义更新dom事件"
+        },
+        {
+          "level": 3,
+          "title": "17. updateDOMProps更新真实dom的props属性",
+          "slug": "_17-updatedomprops更新真实dom的props属性"
+        },
+        {
+          "level": 3,
+          "title": "18. style 字符串 格式化为对象",
+          "slug": "_18-style-字符串-格式化为对象"
+        },
+        {
+          "level": 3,
+          "title": "19. 设置属性和样式",
+          "slug": "_19-设置属性和样式"
+        },
+        {
+          "level": 3,
+          "title": "19. 更新样式",
+          "slug": "_19-更新样式"
+        },
+        {
+          "level": 3,
+          "title": "20. 封装工具模板",
+          "slug": "_20-封装工具模板"
+        },
+        {
+          "level": 3,
+          "title": "21 .定义插入更新指令函数",
+          "slug": "_21-定义插入更新指令函数"
+        },
+        {
+          "level": 3,
+          "title": "22. 定义更新绑定指令函数",
+          "slug": "_22-定义更新绑定指令函数"
+        },
+        {
+          "level": 3,
+          "title": "23 . 封装指令",
+          "slug": "_23-封装指令"
+        },
+        {
+          "level": 3,
+          "title": "24. 检验属性",
+          "slug": "_24-检验属性"
+        },
+        {
+          "level": 3,
+          "title": "25. 挂载$mount",
+          "slug": "_25-挂载-mount"
+        },
+        {
+          "level": 3,
+          "title": "26 .vue 开发工具配置",
+          "slug": "_26-vue-开发工具配置"
+        }
+      ]
+    },
+    {
+      "title": "1. 什么是mvvm",
+      "frontmatter": {},
+      "regularPath": "/vue/vue/2.html",
+      "relativePath": "vue/vue/2.md",
+      "key": "v-3716c636",
+      "path": "/vue/vue/2.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1. 什么是mvvm",
+          "slug": "_1-什么是mvvm"
         },
         {
           "level": 2,
-          "title": "10. Vuex中有两个action，分别是actionA和actionB，其内都是异步操作，在actionB里面要提交actionA，需在actionA处理结束再执行actionB？",
-          "slug": "_10-vuex中有两个action-分别是actiona和actionb-其内都是异步操作-在actionb里面要提交actiona-需在actiona处理结束再执行actionb"
+          "title": "2. 什么是 SPA 单页面，它的优缺点分别是什么",
+          "slug": "_2-什么是-spa-单页面-它的优缺点分别是什么"
         },
         {
           "level": 2,
-          "title": "11. Vuex模块的简单使用",
-          "slug": "_11-vuex模块的简单使用"
+          "title": "3. 生命周期",
+          "slug": "_3-生命周期"
+        },
+        {
+          "level": 3,
+          "title": "3-1 基本概念",
+          "slug": "_3-1-基本概念"
+        },
+        {
+          "level": 3,
+          "title": "3-2 生命周期调用顺序",
+          "slug": "_3-2-生命周期调用顺序"
+        },
+        {
+          "level": 3,
+          "title": "3-3 vue生命周期的作用是什么",
+          "slug": "_3-3-vue生命周期的作用是什么"
+        },
+        {
+          "level": 3,
+          "title": "3-4 第一次页面加载会触发哪几个钩子",
+          "slug": "_3-4-第一次页面加载会触发哪几个钩子"
+        },
+        {
+          "level": 3,
+          "title": "3-5 每个周期具体适合哪些场景",
+          "slug": "_3-5-每个周期具体适合哪些场景"
         },
         {
           "level": 2,
-          "title": "12. 模块中getter和mutation接收的第一个参数state，是全局的还是模块的？",
-          "slug": "_12-模块中getter和mutation接收的第一个参数state-是全局的还是模块的"
+          "title": "4.v-show 与 v-if 的区别",
+          "slug": "_4-v-show-与-v-if-的区别"
         },
         {
           "level": 2,
-          "title": "13. 在模块中怎么访问全局的state和getter",
-          "slug": "_13-在模块中怎么访问全局的state和getter"
+          "title": "5. Vue 的单向数据流",
+          "slug": "_5-vue-的单向数据流"
         },
         {
           "level": 2,
-          "title": "14. 组件中如何使用各个属性",
-          "slug": "_14-组件中如何使用各个属性"
+          "title": "6.异步请求适合在哪个生命周期调用？",
+          "slug": "_6-异步请求适合在哪个生命周期调用"
         },
         {
           "level": 2,
-          "title": "15.带命名空间模块内提交全局mutation和action",
-          "slug": "_15-带命名空间模块内提交全局mutation和action"
+          "title": "7.Vue2.x组件通信有哪些方式？",
+          "slug": "_7-vue2-x组件通信有哪些方式"
+        },
+        {
+          "level": 3,
+          "title": "7-1 父子组件通信",
+          "slug": "_7-1-父子组件通信"
+        },
+        {
+          "level": 3,
+          "title": "7-2 兄弟组件通信",
+          "slug": "_7-2-兄弟组件通信"
+        },
+        {
+          "level": 3,
+          "title": "7-3 跨级组件通信",
+          "slug": "_7-3-跨级组件通信"
+        },
+        {
+          "level": 3,
+          "title": "7-4 使用",
+          "slug": "_7-4-使用"
         },
         {
           "level": 2,
-          "title": "16.命名空间的模块内注册全局action",
-          "slug": "_16-命名空间的模块内注册全局action"
+          "title": "8. 什么是SSR",
+          "slug": "_8-什么是ssr"
+        },
+        {
+          "level": 2,
+          "title": "9.Vue路由",
+          "slug": "_9-vue路由"
+        },
+        {
+          "level": 3,
+          "title": "9-1 vue-router 路由模式有几种？",
+          "slug": "_9-1-vue-router-路由模式有几种"
+        },
+        {
+          "level": 3,
+          "title": "9-2 hash路由和history路由实现原理",
+          "slug": "_9-2-hash路由和history路由实现原理"
+        },
+        {
+          "level": 2,
+          "title": "10.Vue 中的 key 有什么作用？",
+          "slug": "_10-vue-中的-key-有什么作用"
+        },
+        {
+          "level": 2,
+          "title": "11.虚拟 DOM 实现原理",
+          "slug": "_11-虚拟-dom-实现原理"
+        },
+        {
+          "level": 2,
+          "title": "13.虚拟 DOM 的优缺点",
+          "slug": "_13-虚拟-dom-的优缺点"
+        },
+        {
+          "level": 2,
+          "title": "14.Proxy 与 Object.defineProperty 优劣对比",
+          "slug": "_14-proxy-与-object-defineproperty-优劣对比"
+        },
+        {
+          "level": 2,
+          "title": "15.Vue 框架怎么实现对象和数组的监听？",
+          "slug": "_15-vue-框架怎么实现对象和数组的监听"
+        },
+        {
+          "level": 2,
+          "title": "16.Vue 是如何实现数据双向绑定的",
+          "slug": "_16-vue-是如何实现数据双向绑定的"
+        },
+        {
+          "level": 2,
+          "title": "17.v-model 的原理",
+          "slug": "_17-v-model-的原理"
+        },
+        {
+          "level": 2,
+          "title": "18.组件中 data 为什么是一个函数？",
+          "slug": "_18-组件中-data-为什么是一个函数"
+        },
+        {
+          "level": 2,
+          "title": "19.谈谈你对 keep-alive",
+          "slug": "_19-谈谈你对-keep-alive"
+        },
+        {
+          "level": 2,
+          "title": "20.父组件可以监听到子组件的生命周期吗？",
+          "slug": "_20-父组件可以监听到子组件的生命周期吗"
+        },
+        {
+          "level": 2,
+          "title": "21.直接给一个数组项赋值，Vue 能检测到变化吗？",
+          "slug": "_21-直接给一个数组项赋值-vue-能检测到变化吗"
         }
       ]
     },
@@ -4494,12 +4237,229 @@ export const siteData = {
       ]
     },
     {
-      "title": "2",
+      "title": "1. 背景",
       "frontmatter": {},
-      "regularPath": "/vuePress/",
-      "relativePath": "vuePress/README.md",
-      "key": "v-9a7bf8c2",
-      "path": "/vuePress/"
+      "regularPath": "/vue/vue3/1.html",
+      "relativePath": "vue/vue3/1.md",
+      "key": "v-464f3bdb",
+      "path": "/vue/vue3/1.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1. 背景",
+          "slug": "_1-背景"
+        },
+        {
+          "level": 2,
+          "title": "2.生命周期的变化",
+          "slug": "_2-生命周期的变化"
+        },
+        {
+          "level": 2,
+          "title": "3.使用proxy代替defineProperty",
+          "slug": "_3-使用proxy代替defineproperty"
+        },
+        {
+          "level": 3,
+          "title": "Object.defineProperty()语法",
+          "slug": "object-defineproperty-语法"
+        },
+        {
+          "level": 3,
+          "title": "Proxy的语法",
+          "slug": "proxy的语法"
+        },
+        {
+          "level": 2,
+          "title": "4.Diff算法的提升",
+          "slug": "_4-diff算法的提升"
+        },
+        {
+          "level": 3,
+          "title": "以往的渲染策略",
+          "slug": "以往的渲染策略"
+        },
+        {
+          "level": 3,
+          "title": "潜在的问题",
+          "slug": "潜在的问题"
+        },
+        {
+          "level": 3,
+          "title": "Vue3的突破",
+          "slug": "vue3的突破"
+        },
+        {
+          "level": 2,
+          "title": "5.typeScript的支持",
+          "slug": "_5-typescript的支持"
+        },
+        {
+          "level": 3,
+          "title": "vue2 存在的问题",
+          "slug": "vue2-存在的问题"
+        },
+        {
+          "level": 3,
+          "title": "如何实现",
+          "slug": "如何实现"
+        },
+        {
+          "level": 2,
+          "title": "6.打包体积变化",
+          "slug": "_6-打包体积变化"
+        },
+        {
+          "level": 3,
+          "title": "以前打包存在的问题",
+          "slug": "以前打包存在的问题"
+        },
+        {
+          "level": 3,
+          "title": "vue3是怎么做的",
+          "slug": "vue3是怎么做的"
+        },
+        {
+          "level": 2,
+          "title": "6. 开始使用vue3.0",
+          "slug": "_6-开始使用vue3-0"
+        },
+        {
+          "level": 3,
+          "title": "安装依赖，创建项目",
+          "slug": "安装依赖-创建项目"
+        },
+        {
+          "level": 2,
+          "title": "7. 代码解释",
+          "slug": "_7-代码解释"
+        },
+        {
+          "level": 3,
+          "title": "将vue3的HelloWorld.vue文件做些改动",
+          "slug": "将vue3的helloworld-vue文件做些改动"
+        },
+        {
+          "level": 3,
+          "title": "生命周期的使用",
+          "slug": "生命周期的使用"
+        },
+        {
+          "level": 2,
+          "title": "8. 组件Api的使用",
+          "slug": "_8-组件api的使用"
+        },
+        {
+          "level": 3,
+          "title": "setup",
+          "slug": "setup"
+        }
+      ]
+    },
+    {
+      "title": "1. 直接修改与commit提交mutation修改state的差异",
+      "frontmatter": {},
+      "regularPath": "/vue/vuex/2.html",
+      "relativePath": "vue/vuex/2.md",
+      "key": "v-71624fcf",
+      "path": "/vue/vuex/2.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1. 直接修改与commit提交mutation修改state的差异",
+          "slug": "_1-直接修改与commit提交mutation修改state的差异"
+        },
+        {
+          "level": 2,
+          "title": "2. Vuex中状态是对象时要注意什么",
+          "slug": "_2-vuex中状态是对象时要注意什么"
+        },
+        {
+          "level": 2,
+          "title": "3. 组件中批量使用Vuex的state状态",
+          "slug": "_3-组件中批量使用vuex的state状态"
+        },
+        {
+          "level": 2,
+          "title": "4. 怎么从state派生一些状态出来让多个组件使用它",
+          "slug": "_4-怎么从state派生一些状态出来让多个组件使用它"
+        },
+        {
+          "level": 2,
+          "title": "5. 用getter来过滤state",
+          "slug": "_5-用getter来过滤state"
+        },
+        {
+          "level": 2,
+          "title": "6.组件中批量给getter属性取别名",
+          "slug": "_6-组件中批量给getter属性取别名"
+        },
+        {
+          "level": 2,
+          "title": "7. 怎么改变state的状态。",
+          "slug": "_7-怎么改变state的状态。"
+        },
+        {
+          "level": 2,
+          "title": "8. action和mutation的区别",
+          "slug": "_8-action和mutation的区别"
+        },
+        {
+          "level": 2,
+          "title": "9. 如何知道异步的action何时结束",
+          "slug": "_9-如何知道异步的action何时结束"
+        },
+        {
+          "level": 2,
+          "title": "10. Vuex中有两个action，分别是actionA和actionB，其内都是异步操作，在actionB里面要提交actionA，需在actionA处理结束再执行actionB？",
+          "slug": "_10-vuex中有两个action-分别是actiona和actionb-其内都是异步操作-在actionb里面要提交actiona-需在actiona处理结束再执行actionb"
+        },
+        {
+          "level": 2,
+          "title": "11. Vuex模块的简单使用",
+          "slug": "_11-vuex模块的简单使用"
+        },
+        {
+          "level": 2,
+          "title": "12. 模块中getter和mutation接收的第一个参数state，是全局的还是模块的？",
+          "slug": "_12-模块中getter和mutation接收的第一个参数state-是全局的还是模块的"
+        },
+        {
+          "level": 2,
+          "title": "13. 在模块中怎么访问全局的state和getter",
+          "slug": "_13-在模块中怎么访问全局的state和getter"
+        },
+        {
+          "level": 2,
+          "title": "14. 组件中如何使用各个属性",
+          "slug": "_14-组件中如何使用各个属性"
+        },
+        {
+          "level": 2,
+          "title": "15.带命名空间模块内提交全局mutation和action",
+          "slug": "_15-带命名空间模块内提交全局mutation和action"
+        },
+        {
+          "level": 2,
+          "title": "16.命名空间的模块内注册全局action",
+          "slug": "_16-命名空间的模块内注册全局action"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/vue/vuex/1.html",
+      "relativePath": "vue/vuex/1.md",
+      "key": "v-efe8be5e",
+      "path": "/vue/vuex/1.html"
+    },
+    {
+      "title": "ES62",
+      "frontmatter": {},
+      "regularPath": "/xcx/ES6/ES62.html",
+      "relativePath": "xcx/ES6/ES62.md",
+      "key": "v-7134ec6b",
+      "path": "/xcx/ES6/ES62.html"
     },
     {
       "title": "使用指南",
@@ -4530,13 +4490,6 @@ export const siteData = {
           "slug": "_3-代码使得代码高亮"
         }
       ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/vue/vuex/1.html",
-      "relativePath": "vue/vuex/1.md",
-      "key": "v-efe8be5e",
-      "path": "/vue/vuex/1.html"
     },
     {
       "frontmatter": {},
@@ -4578,39 +4531,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "侧边栏需要参考以下配置",
-      "frontmatter": {},
-      "regularPath": "/vuePress/pit.html",
-      "relativePath": "vuePress/pit.md",
-      "key": "v-423efb74",
-      "path": "/vuePress/pit.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "侧边栏需要参考以下配置",
-          "slug": "侧边栏需要参考以下配置"
-        },
-        {
-          "level": 2,
-          "title": "文章内容参考以下配置",
-          "slug": "文章内容参考以下配置"
-        },
-        {
-          "level": 2,
-          "title": "怎么放大图片",
-          "slug": "怎么放大图片"
-        }
-      ]
-    },
-    {
-      "title": "ES62",
-      "frontmatter": {},
-      "regularPath": "/xcx/ES6/ES62.html",
-      "relativePath": "xcx/ES6/ES62.md",
-      "key": "v-7134ec6b",
-      "path": "/xcx/ES6/ES62.html"
-    },
-    {
       "title": "手写函数(简单)",
       "frontmatter": {},
       "regularPath": "/xcx/Function/text1.html",
@@ -4619,12 +4539,12 @@ export const siteData = {
       "path": "/xcx/Function/text1.html"
     },
     {
-      "title": "思维导图",
+      "title": "手写函数(复杂)",
       "frontmatter": {},
-      "regularPath": "/xcx/",
-      "relativePath": "xcx/README.md",
-      "key": "v-41271b66",
-      "path": "/xcx/"
+      "regularPath": "/xcx/Function/text2.html",
+      "relativePath": "xcx/Function/text2.md",
+      "key": "v-307d3b6b",
+      "path": "/xcx/Function/text2.html"
     },
     {
       "title": "1. 时间兼容",
@@ -4655,12 +4575,45 @@ export const siteData = {
       "path": "/xcx/JS/2.html"
     },
     {
-      "title": "手写函数(复杂)",
+      "title": "侧边栏需要参考以下配置",
       "frontmatter": {},
-      "regularPath": "/xcx/Function/text2.html",
-      "relativePath": "xcx/Function/text2.md",
-      "key": "v-307d3b6b",
-      "path": "/xcx/Function/text2.html"
+      "regularPath": "/vuePress/pit.html",
+      "relativePath": "vuePress/pit.md",
+      "key": "v-423efb74",
+      "path": "/vuePress/pit.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "侧边栏需要参考以下配置",
+          "slug": "侧边栏需要参考以下配置"
+        },
+        {
+          "level": 2,
+          "title": "文章内容参考以下配置",
+          "slug": "文章内容参考以下配置"
+        },
+        {
+          "level": 2,
+          "title": "怎么放大图片",
+          "slug": "怎么放大图片"
+        }
+      ]
+    },
+    {
+      "title": "思维导图",
+      "frontmatter": {},
+      "regularPath": "/xcx/",
+      "relativePath": "xcx/README.md",
+      "key": "v-41271b66",
+      "path": "/xcx/"
+    },
+    {
+      "title": "2",
+      "frontmatter": {},
+      "regularPath": "/vuePress/",
+      "relativePath": "vuePress/README.md",
+      "key": "v-9a7bf8c2",
+      "path": "/vuePress/"
     }
   ],
   "themeConfig": {
