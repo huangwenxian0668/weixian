@@ -13,7 +13,7 @@ jobs:
     - name: Build and Deploy
       uses: jenkey2011/vuepress-deploy@master
       env:
-        ACCESS_TOKEN: ${{ secrets.VUEAD }} # VUEAD 是我的 secret 名称，需要替换成你的
+        ACCESS_TOKEN: ${{ secrets.WENXIAN }} # VUEAD 是我的 secret 名称，需要替换成你的
         # 你要操作的目标仓库，注意：是项目仓库名
         TARGET_REPO: huangwenxian0668/weixian
         # 构建结果存储的分支
